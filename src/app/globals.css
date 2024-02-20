@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.neon{
+    text-shadow: 0 0 0.5em #1da9cc;
+    filter: blur(0.009em);
+    box-shadow: 0 0  3px #fff,0 0  3px #fff,0 0 5px #5ac0dc,0 0 18px #5ac0dc,0 0 36px #5ac0dc;
+}
+
+.neon:hover{
+    text-shadow: 0 0 0 #1da9cc;
+    filter: blur(0.007em);
+}
