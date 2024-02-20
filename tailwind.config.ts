@@ -40,8 +40,8 @@ const config = {
         glassmorphism: "rgba(16, 16, 18, 0.60)",
       },
       fontFamily: {
-        primary: ["Montserrat", "sans-serif"],
-        secondary: ["Raleway", "sans-serif"],
+        primary: ["Poppins", "sans-serif"],
+        secondary: ["Titillium Web", "sans-serif"],
       },
       boxShadow: {
         "count-badge": "0px 0px 6px 2px rgba(219, 188, 159, 0.30)",

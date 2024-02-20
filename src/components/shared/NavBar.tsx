@@ -10,10 +10,10 @@ const NavBar = () => {
 
   return (
     <div>
-        <div className="absolute left-24 w-48 top-16">
+        <div className="absolute left-24 w-48 z-10 top-14 font-primary">
         <Image src={logo} alt="logo"/>
         </div>
-    <div className="absolute right-24 top-8 z-10 mx-auto flex flex-col items-center justify-center rounded-full bg-slate-500 p-3 px-12 text-primary bg-opacity-30 md:w-fit md:flex-row md:p-5 ">
+    <div className="absolute right-24 top-8 z-10 mx-auto flex flex-col items-center justify-center rounded-full bg-glassmorphism p-3 px-12 text-primary bg-opacity-30 md:w-fit md:flex-row md:p-5 ">
       <button
         data-collapse-toggle="navbar-default"
         type="button"
