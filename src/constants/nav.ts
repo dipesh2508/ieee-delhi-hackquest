@@ -28,4 +28,4 @@ export const navLinks:INavLink[] = [
         title: 'FAQs',
         path: '#faqs',
     },
-]
+];
