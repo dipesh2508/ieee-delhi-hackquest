@@ -35,6 +35,7 @@ const config = {
       colors: {
         primary: "#0A767B",
         secondary: "#00A7D6",
+        dark: "#171717",
 
         glassmorphism: "rgba(16, 16, 18, 0.60)",
       },
