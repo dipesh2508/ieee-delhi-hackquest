@@ -28,7 +28,7 @@ const Sponsors = () => {
         opts={{
           align: "center",
         }}
-        className="w-full pl-5"
+        className="w-full"
       >
         <CarouselContent>
           {sponsors.map((item, index) => (
