@@ -38,7 +38,7 @@ const config = {
         dark: "#171717",
         headings: "#3ED5DD",
 
-        glassmorphism: "rgba(16, 16, 18, 0.60)",
+        glassmorphism: "rgba(16, 16, 18, 0.70)",
       },
       fontFamily: {
         primary: ["Poppins", "sans-serif"],

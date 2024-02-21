@@ -9,11 +9,11 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <div className="absolute left-24 top-14 z-10 w-48 font-primary">
+    <div className="fixed z-50 w-full">
+      <div className="absolute left-24 top-14 w-48 font-primary">
         <Image src={logo} alt="logo" />
       </div>
-      <div className="absolute right-24 top-8 z-10 mx-auto flex flex-col items-center justify-center rounded-full bg-glassmorphism bg-opacity-30 p-3 px-12 text-primary md:w-fit md:flex-row md:p-5 ">
+      <div className="absolute right-24 top-8 z-10 mx-auto flex flex-col md:gap-8 items-center justify-center rounded-full bg-glassmorphism p-3 px-12 text-primary md:w-fit md:flex-row md:p-5 ">
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -63,7 +63,7 @@ const NavBar = () => {
                 href={data.path}
                 onClick={() => setIsOpen(false)}
                 key={data.title}
-                className="hover:text-cta block py-2 pl-3 pr-4"
+                className="hover:text-cta block py-2 px-8"
               >
                 {data.title}
               </Link>

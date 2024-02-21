@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {
     Accordion,
     AccordionContent,
@@ -11,7 +11,7 @@ import { faqs } from '@/constants/faqs';
 
 const FAQs = () => {
   return (
-    <div className='w-full flex flex-col font-secondary'>
+    <section id="faqs" className='w-full flex flex-col font-secondary'>
         <div className='p-5'>
             <h1 className=' text-5xl font-primary font-semibold text-center text-headings'>FAQs</h1>
         </div>
@@ -25,7 +25,7 @@ const FAQs = () => {
                 ))}
             </Accordion>
         </div>
-    </div>
+    </section>
   )
 }
 
