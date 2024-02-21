@@ -9,7 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/Card";
 
 const Sponsors = () => {
   const plugin = React.useRef(
@@ -34,7 +34,7 @@ const Sponsors = () => {
           {sponsors.map((item, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-4">
-                <Card className="border-0 hover:border-headings w-[350px] bg-gradient-to-r from-zinc-800 via-black/90 to-zinc-800 hover:border-2">
+                <Card className="border-0 hover:border-headings w-[350px]  hover:border-2">
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     
                     <h1 className="text-white">{item.title}</h1>
