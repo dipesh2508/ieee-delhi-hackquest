@@ -5,12 +5,12 @@ import About2 from "@/assets/About2.png";
 
 const About = () => {
   return (
-    <section id="about" className="bg-dark bg-opacity-90 py-12 grid grid-cols-12 gap-16 px-36">
+    <section id="about" className="bg-dark bg-opacity-90 py-12 grid md:grid-cols-12 gap-16 px-36">
       <div className="relative col-span-5">
-        <div className="absolute  left-0 top-0 z-10 h-96 w-96  rounded-2xl">
+        <div className="absolute  left-0 top-0 z-10 md:h-96 md:w-96  rounded-2xl">
           <Image src={About1} alt="about" className="rounded-2xl  " />
         </div>
-        <div className="absolute bottom-0 right-0 z-20 h-96 w-96 rounded-2xl">
+        <div className="absolute bottom-0 right-0 z-20 md:h-96 md:w-96 rounded-2xl">
           <Image src={About2} alt="about" className="rounded-2xl  " />
         </div>
       </div>
