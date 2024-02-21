@@ -3,6 +3,7 @@ import Hero from "@/components/home/Hero";
 import Sponsors from "@/components/home/Sponsors";
 import Tracks from "@/components/home/Tracks";
 import Timeline from "@/components/home/Timeline";
+import FAQs from "@/components/home/FAQs";
 import ParticleBackground from "@/components/design/ParticleBackground";
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Tracks />
       <Timeline />
       <Sponsors />
+      <FAQs />
       <div className="relative -z-10">
         <ParticleBackground />
       </div>

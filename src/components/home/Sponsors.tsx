@@ -29,13 +29,13 @@ const Sponsors = () => {
         opts={{
           align: "center",
         }}
-        className="w-full pl-5"
+        className="w-full"
       >
         <CarouselContent>
           {sponsors.map((item, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-              <div className="p-4">
-                <Card className="border-0 hover:border-headings w-[350px]  hover:border-2">
+              <div className="p-4 flex justify-center">
+                <Card className=" border-0 hover:border-headings w-[350px]  hover:border-2">
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     
                     <h1 className="text-white">{item.title}</h1>
