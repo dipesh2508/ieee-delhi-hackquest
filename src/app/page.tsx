@@ -3,6 +3,7 @@ import Hero from "@/components/home/Hero";
 import Sponsors from "@/components/home/Sponsors";
 import Tracks from "@/components/home/Tracks";
 import Timeline from "@/components/home/Timeline";
+import FAQs from "@/components/home/FAQs";
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-dark">
@@ -11,6 +12,7 @@ export default function Home() {
       <Tracks />
       <Timeline />
       <Sponsors />
+      <FAQs />
     </main>
   );
 }
