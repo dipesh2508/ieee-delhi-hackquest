@@ -45,7 +45,7 @@ const NavBar = () => {
           <Link
             key={key}
             href={link.path}
-            className="hidden px-4 py-2 hover:text-secondary md:block"
+            className="hidden px-4 py-2 font-medium hover:text-secondary md:block"
           >
             {link.title}
           </Link>

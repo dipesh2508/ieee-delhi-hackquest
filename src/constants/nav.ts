@@ -21,11 +21,7 @@ export const navLinks:INavLink[] = [
         path: '#timeline',
     },
     {
-        title: 'Sponsors',
-        path: '#sponsors',
-    },
-    {
         title: 'FAQs',
-        path: '#faqs',
+        path: '/faqs',
     },
 ];

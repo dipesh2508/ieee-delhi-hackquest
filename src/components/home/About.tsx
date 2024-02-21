@@ -5,7 +5,7 @@ import About2 from "@/assets/About2.png";
 
 const About = () => {
   return (
-    <section className="grid grid-cols-12 gap-16 px-36">
+    <section id="about" className="bg-dark bg-opacity-90 py-12 grid grid-cols-12 gap-16 px-36">
       <div className="relative col-span-5">
         <div className="absolute  left-0 top-0 z-10 h-96 w-96  rounded-2xl">
           <Image src={About1} alt="about" className="rounded-2xl  " />
@@ -15,7 +15,7 @@ const About = () => {
         </div>
       </div>
       <div className="col-span-7 flex flex-col gap-12 py-16">
-        <h2 className="font-secondary text-6xl font-semibold text-secondary">
+        <h2 className="font-secondary text-6xl font-semibold text-headings">
           ABOUT HACKQUEST
         </h2>
         <p className="font-primary text-xl font-extralight text-white">

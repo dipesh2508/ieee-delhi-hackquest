@@ -1,4 +1,5 @@
 "use client";
+
 import * as React from "react";
 import { sponsors } from "@/constants/sponsor";
 import Autoplay from "embla-carousel-autoplay";
@@ -16,7 +17,7 @@ const Sponsors = () => {
     Autoplay({ delay: 4000, stopOnInteraction: true }),
   );
   return (
-    <div className="flex w-full flex-col items-center px-5 py-12 font-primary text-white">
+    <section className="flex w-full flex-col items-center px-5 py-12 font-primary text-white">
       <div className="p-5 text-center">
         <h1 className="text-headings pb-5 text-5xl font-bold">Our Sponsors</h1>
         <p>tagline for sponsors</p>
@@ -47,7 +48,7 @@ const Sponsors = () => {
         <CarouselPrevious className="ml-8" variant="default" />
         <CarouselNext className="mr-10" variant="default" />
       </Carousel>
-    </div>
+    </section>
   );
 };
 

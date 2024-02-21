@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Tracks = () => {
   return (
-    <div className="flex w-full flex-col items-center px-5 py-12 font-primary text-white">
+    <section id="tracks" className="flex w-full flex-col items-center px-5 py-12 font-primary text-white">
       <div className="px-5 py-10">
         <h1 className="pb-10 text-center text-5xl font-bold text-headings">
           Tracks
@@ -50,7 +50,7 @@ const Tracks = () => {
           </Card>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
