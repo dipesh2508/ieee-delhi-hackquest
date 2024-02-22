@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/Card";
 import clsx from "clsx";
+import { MotionDiv } from "../animation/motionDiv";
 
 interface ITimelineCardProps {
   left: boolean;
@@ -9,6 +10,11 @@ interface ITimelineCardProps {
   description: string;
 }
 
+const variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
+
 const TimelineCard: React.FC<ITimelineCardProps> = ({
   title,
   date,
@@ -17,7 +23,18 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
   left,
 }) => {
   return (
-    <div className="container relative grid grid-cols-2 gap-20 px-4 md:px-6">
+    <MotionDiv
+      variants={variants}
+      initial="hidden"
+      transition={{
+        delay: 0.3,
+        ease: "easeInOut",
+        duration: 0.4,
+      }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true, amount: 0.5 }}
+      className="container relative grid grid-cols-2 gap-20 px-4 md:px-6"
+    >
       <div className="absolute left-1/2 h-full w-2 bg-secondary"></div>
 
       <div
@@ -57,7 +74,7 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
           <p>{description}</p>
         </CardContent>
       </Card>
-    </div>
+    </MotionDiv>
   );
 };
 

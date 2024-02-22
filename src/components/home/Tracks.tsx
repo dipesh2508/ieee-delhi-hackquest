@@ -12,6 +12,12 @@ import {
 
 import { tracks } from "@/constants/tracks";
 import Image from "next/image";
+import { MotionDiv } from "../animation/motionDiv";
+
+const variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
 
 const Tracks = () => {
   return (
@@ -23,19 +29,30 @@ const Tracks = () => {
         <h2 className="pb-10 text-center text-5xl font-bold text-headings">
           Tracks
         </h2>
-        <h3 className="text-center text-xl font-secondary">
+        <h3 className="text-center font-secondary text-xl">
           Dive into innovation across diverse tracks and challenges, navigating
           through HackQuest{"'"}s exhilarating journey.
         </h3>
       </div>
-      <div className="flex w-full flex-wrap justify-evenly md:flex-row">
+      <MotionDiv
+        variants={variants}
+        initial="hidden"
+        transition={{
+          delay: 0.3,
+          ease: "easeInOut",
+          duration: 0.4,
+        }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.5 }}
+        className="flex w-full flex-wrap justify-evenly md:flex-row"
+      >
         {tracks.map((item, index) => (
           <Card
             key={index}
-            className=" my-5 w-[300px] border-dark py-5 transition-colors delay-150 text-white backdrop-blur-xl border-2 hover:border-headings"
+            className=" my-5 w-[300px] border-2 border-dark py-5 text-white backdrop-blur-xl transition-colors delay-150 hover:border-headings"
           >
             <CardContent>
-              <div className="relative bottom-12 left-24 w-fit rounded-[50px] border transition-colors delay-150 border-headings bg-dark p-2 hover:bg-secondary">
+              <div className="relative bottom-12 left-24 w-fit rounded-[50px] border border-headings bg-dark p-2 transition-colors delay-150 hover:bg-secondary">
                 <Image
                   src={item.icon}
                   width={40}
@@ -51,7 +68,7 @@ const Tracks = () => {
             </CardContent>
           </Card>
         ))}
-      </div>
+      </MotionDiv>
     </section>
   );
 };
