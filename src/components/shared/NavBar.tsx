@@ -10,15 +10,15 @@ const NavBar = () => {
 
   return (
     <div className="fixed z-50 w-full">
-      <div className="absolute left-24 hidden md:block top-14 w-48 font-primary">
+      <div className="absolute left-24 top-14 hidden w-48 font-primary md:block">
         <Image src={logo} alt="logo" />
       </div>
-      <div className="md:absolute mx-24 md:right-24 md:mx-auto md:top-8 z-10 mt-12 md:mt-0 flex flex-col md:gap-8 items-center justify-center rounded-2xl md:rounded-full bg-glassmorphism p-3 text-primary md:px-12 md:w-fit md:flex-row md:p-5 ">
+      <div className="z-10 mx-24 mt-12 flex flex-col items-center justify-center rounded-2xl bg-glassmorphism p-3 text-primary md:absolute md:right-24 md:top-8 md:mx-auto md:mt-0 md:w-fit md:flex-row md:gap-8 md:rounded-full md:p-5 md:px-12 ">
         <button
           data-collapse-toggle="navbar-default"
           type="button"
           onClick={() => setIsOpen(!isOpen)} //  Event handler for a click event that toggles the value of isOpen.
-          className="hover:text-primary focus:ring-cta inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-primary ring-primary focus:outline-none focus:ring-2  dark:focus:ring-gray-600 md:hidden"
+          className="focus:ring-cta inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-primary ring-primary hover:text-primary focus:outline-none focus:ring-2  dark:focus:ring-gray-600 md:hidden"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -50,8 +50,10 @@ const NavBar = () => {
             {link.title}
           </Link>
         ))}
-        <Link href="/register">
-          <Button className="rounded-full px-6 hidden md:block">Register</Button>
+        <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168">
+          <Button className="hidden rounded-full px-6 md:block">
+            Register
+          </Button>
         </Link>
 
         {/* If the navigation menu is open, render a div with the navigation links */}
@@ -63,14 +65,14 @@ const NavBar = () => {
                 href={data.path}
                 onClick={() => setIsOpen(false)}
                 key={data.title}
-                className="hover:text-secondary block py-2 px-8"
+                className="block px-8 py-2 hover:text-secondary"
               >
                 {data.title}
               </Link>
             ))}
-            <Link href="/register">
-          <Button className="rounded-full px-6">Register</Button>
-        </Link>
+            <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168">
+              <Button className="rounded-full px-6">Register</Button>
+            </Link>
           </div>
         )}
       </div>

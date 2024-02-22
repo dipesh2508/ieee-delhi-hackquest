@@ -2,12 +2,13 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import About1 from "@/assets/About1.jpg";
 import About2 from "@/assets/About2.png";
+import Link from "next/link";
 
 const About = () => {
   return (
     <section
       id="about"
-      className="mt-12 content-center gap-8 md:gap-16 bg-dark bg-opacity-90 px-16 py-12 md:mt-0 grid md:grid-cols-12 md:px-36"
+      className="mt-12 grid content-center gap-8 bg-dark bg-opacity-90 px-16 py-12 md:mt-0 md:grid-cols-12 md:gap-16 md:px-36"
     >
       <div className="m-auto flex w-auto flex-col content-center gap-4 rounded-2xl md:col-span-5 md:h-96 md:w-96">
         <Image src={About1} alt="about" className="rounded-2xl  " />
@@ -28,7 +29,9 @@ const About = () => {
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
-            Register
+            <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168">
+              Know More
+            </Link>
           </Button>
         </div>
       </div>

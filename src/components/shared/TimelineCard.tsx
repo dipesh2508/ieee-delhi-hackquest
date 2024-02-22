@@ -28,7 +28,7 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
       items-center 
       gap-4`,
           left && "order-last justify-start",
-          !left && "ml-12 md:ml-0 justify-end text-right",
+          !left && "ml-12 justify-end text-right md:ml-0",
         )}
       >
         <div className="grid grid-rows-4 items-center justify-center text-center">
