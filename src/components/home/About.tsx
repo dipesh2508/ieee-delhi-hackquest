@@ -5,20 +5,19 @@ import About2 from "@/assets/About2.png";
 
 const About = () => {
   return (
-    <section id="about" className="bg-dark bg-opacity-90 py-12 grid md:grid-cols-12 gap-16 px-36">
-      <div className="relative col-span-5">
-        <div className="absolute  left-0 top-0 z-10 md:h-96 md:w-96  rounded-2xl">
-          <Image src={About1} alt="about" className="rounded-2xl  " />
-        </div>
-        <div className="absolute bottom-0 right-0 z-20 md:h-96 md:w-96 rounded-2xl">
-          <Image src={About2} alt="about" className="rounded-2xl  " />
-        </div>
+    <section
+      id="about"
+      className="mt-12 content-center gap-8 md:gap-16 bg-dark bg-opacity-90 px-16 py-12 md:mt-0 grid md:grid-cols-12 md:px-36"
+    >
+      <div className="m-auto flex w-auto flex-col content-center gap-4 rounded-2xl md:col-span-5 md:h-96 md:w-96">
+        <Image src={About1} alt="about" className="rounded-2xl  " />
       </div>
-      <div className="col-span-7 flex flex-col gap-12 py-16">
-        <h2 className="font-secondary text-6xl font-semibold text-headings">
+
+      <div className="m-auto flex flex-col content-center gap-8 py-4 md:col-span-7">
+        <h2 className="font-secondary text-3xl font-semibold text-headings md:text-6xl">
           ABOUT HACKQUEST
         </h2>
-        <p className="font-primary text-xl font-extralight text-white">
+        <p className="text-justify font-primary text-base font-extralight text-white md:text-xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           congue metus quis accumsan euismod. Maecenas sed est mollis, convallis
           nisi convallis, imperdiet massa. Proin ipsum nunc, lacinia ac faucibus

@@ -5,10 +5,10 @@ import logo from '@/assets/hackquest logo.png';
 const Hero = () => {
   return (
     <section className="flex h-screen flex-col content-center items-center justify-center gap-4 pt-16">
-      <div className="mx-64 font-secondary text-9xl font-bold text-white">
+      <div className="md:mx-64 mx-8 font-secondary text-9xl font-bold text-white">
         <Image src={logo} alt="logo" />
       </div>
-      <h3 className="text-2xl text-slate-50">Hurdle | Hack | Hustle</h3>
+      <h3 className="md:text-2xl text-lg text-slate-50">Hurdle | Hack | Hustle</h3>
       <Button variant="neon" size="xl" className="mt-20">
         Register
       </Button>
