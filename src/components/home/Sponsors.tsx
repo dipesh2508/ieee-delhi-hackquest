@@ -19,7 +19,7 @@ const Sponsors = () => {
   return (
     <section className="flex w-full flex-col items-center px-5 py-12 font-primary text-white">
       <div className="p-5 text-center">
-        <h1 className="text-headings pb-5 text-5xl font-bold">Our Sponsors</h1>
+        <h2 className="text-headings pb-5 text-5xl font-bold">Our Sponsors</h2>
         <p>tagline for sponsors</p>
       </div>
       <Carousel
@@ -38,7 +38,7 @@ const Sponsors = () => {
                 <Card className=" border-0 hover:border-headings w-[350px]  hover:border-2">
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     
-                    <h1 className="text-white">{item.title}</h1>
+                    <h2 className="text-white">{item.title}</h2>
                   </CardContent>
                 </Card>
               </div>

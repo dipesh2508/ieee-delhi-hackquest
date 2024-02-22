@@ -30,7 +30,7 @@ const Bottom = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-lg font-medium">Quick Links</h1>
+        <h2 className="text-lg font-medium">Quick Links</h2>
         <p>About</p>
         <p>Register</p>
       </div>

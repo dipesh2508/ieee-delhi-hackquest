@@ -8,16 +8,16 @@ export const tracks:Itracks[] = [
     {
         icon: '/tracks/cyber.svg',
         title: 'Cyber Security',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis.',
+        description: "Explore cybersecurity challenges in HackQuest's thrilling journey of innovation.",
     },
     {
         icon: '/tracks/openinnovation.svg',
         title: 'Open Innovation',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis.',
+        description: "Discover boundless opportunities in open innovation within the dynamic realm of HackQuest's collaborative journey.",
     },
     {
         icon: '/tracks/healthcare.svg',
         title: 'HealthCare',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis.',
+        description: "Partake in the dynamic landscape of healthcare challenges within HackQuest's innovation-driven journey.",
     }
 ];

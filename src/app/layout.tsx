@@ -17,6 +17,7 @@ const titillium = Titillium_Web({
 export const metadata: Metadata = {
   title: "HackQuest",
   description: "Hackathon organized by IEEE Delhi Section",
+  keywords: "hackathon, ieee, delhi, section, hackquest, healthtech, cybersecurity, offline",
 };
 
 export default function RootLayout({
@@ -26,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        
+      </head>
       <body className={`${poppins.className}, ${titillium.style}`}>
         <NavBar />
         {children}

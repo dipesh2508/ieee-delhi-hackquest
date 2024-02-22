@@ -18,14 +18,12 @@ const About = () => {
         <h2 className="font-secondary text-3xl font-semibold text-headings md:text-6xl">
           ABOUT HACKQUEST
         </h2>
-        <p className="text-justify font-primary text-base font-extralight text-white md:text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          congue metus quis accumsan euismod. Maecenas sed est mollis, convallis
-          nisi convallis, imperdiet massa. Proin ipsum nunc, lacinia ac faucibus
-          quis, ullamcorper non metus. Aliquam viverra volutpat feugiat. Donec
-          fringilla aliquam mollis. Sed cursus quam nibh, quis placerat metus
-          dapibus sed. Nam varius nisi in nisi maximus blandit sit amet ac
-          tellus.
+        <p className="text-justify font-primary text-base font-thin text-white md:text-xl">
+          Discover the pulse-pounding excitement of HackQuest, the premier
+          event hosted by IEEE Delhi Section SAC. Dive into a world of innovation
+          and collaboration, where challenges ignite creativity and connections
+          thrive. Get ready to unleash your potential and conquer cutting-edge
+          technology challenges!
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
