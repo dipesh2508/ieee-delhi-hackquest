@@ -12,7 +12,7 @@ export default function Home() {
       <About />
       <Tracks />
       <Timeline />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <FAQs />
       <div className="relative -z-10">
         <ParticleBackground />
