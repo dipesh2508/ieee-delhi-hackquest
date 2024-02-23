@@ -24,8 +24,6 @@ const Sponsors = () => {
       </div>
       <Carousel
         plugins={[plugin.current]}
-        onMouseEnter={plugin.current.stop}
-        onMouseLeave={plugin.current.reset}
         opts={{
           align: "center",
         }}
