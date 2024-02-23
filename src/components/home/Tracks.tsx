@@ -26,8 +26,8 @@ const Tracks = () => {
       className="flex w-full flex-col items-center px-5 py-12 font-primary text-white"
     >
       <div className="px-5 py-10 md:mb-8">
-        <h2 className="pb-10 text-center text-5xl font-bold text-headings">
-          Tracks
+        <h2 className="pb-10 text-center text-6xl font-bold text-headings">
+          TRACKS
         </h2>
         <h3 className="text-center font-secondary text-xl">
           {/* Dive into innovation across diverse tracks and challenges, navigating

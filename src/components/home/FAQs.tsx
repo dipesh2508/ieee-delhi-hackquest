@@ -15,7 +15,7 @@ const variants = {
 
 const FAQs = () => {
   return (
-    <section id="faqs" className="flex w-full flex-col font-secondary">
+    <section id="faqs" className="mb-24 flex w-full flex-col font-secondary">
       <div className="p-5">
         <h2 className=" text-center font-primary text-5xl font-semibold text-headings">
           FAQs
