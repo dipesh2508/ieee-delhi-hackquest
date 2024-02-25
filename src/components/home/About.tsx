@@ -16,6 +16,8 @@ const About = () => {
       id="about"
       className="mt-12 grid content-center gap-8 bg-dark bg-opacity-90 px-16 py-12 md:mt-0 md:grid-cols-12 md:gap-16 md:px-36"
     >
+      <div className="w-full h-1 bg-gradient-to-r from-primary to-secondary col-span-12 rounded-full mb-16"></div>
+
       <MotionDiv
         variants={variants}
         initial="hidden"
@@ -96,7 +98,7 @@ const About = () => {
         <Image src={About2} alt="about" className="rounded-2xl  " />
       </MotionDiv>
 
-
+      <div className="w-full h-1 bg-gradient-to-l from-primary to-secondary col-span-12 rounded-full mt-16"></div>
     </section>
   );
 };

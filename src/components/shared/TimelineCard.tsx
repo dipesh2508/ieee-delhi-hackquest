@@ -45,7 +45,7 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
       items-center 
       gap-4`,
           left && "order-last justify-start",
-          !left && "ml-12 justify-end text-right md:ml-0",
+          !left && "ml-4 justify-end text-right md:ml-0",
         )}
       >
         <div className="grid grid-rows-4 items-center justify-center text-center">
@@ -66,7 +66,7 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
       <Card
         className={clsx(
           `col-span-1 my-12 p-6 md:w-[500px]`,
-          left && "order-first place-items-end md:ml-36",
+          left && "order-first place-items-end md:ml-16",
         )}
       >
         <CardContent className="flex flex-col gap-4 p-2 text-sm text-gray-300">

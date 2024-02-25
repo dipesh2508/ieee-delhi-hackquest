@@ -3,9 +3,13 @@ import { timelineData } from "@/constants/timeline";
 
 const Timeline = () => {
   return (
-    <section id="timeline" className="w-full bg-dark  bg-opacity-90 py-24 ">
+    <section
+      id="timeline"
+      className="w-full bg-dark bg-opacity-90 px-16 py-24 md:px-36 "
+    >
+      <div className="col-span-12 mb-36 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
       <h2 className="mb-24 text-center font-secondary text-6xl font-semibold text-headings">
-        Timeline
+        TIMELINE
       </h2>
       {timelineData.map((data, index) => (
         <TimelineCard
@@ -17,6 +21,7 @@ const Timeline = () => {
           description={data.description}
         />
       ))}
+      <div className="col-span-12 mb-8 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
     </section>
   );
 };
