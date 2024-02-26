@@ -26,7 +26,7 @@ const Team = () => {
           >
             <CardContent className="relative transform overflow-hidden rounded py-0 shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2">
               <Image
-                src={item.image}
+                src="/team/Kailash_Maurya.png"
                 className="rounded-xl h-full"
                 width="300"
                 height="300"
