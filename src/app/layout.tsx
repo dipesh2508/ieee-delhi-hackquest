@@ -3,6 +3,7 @@ import { Poppins, Titillium_Web } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/shared/NavBar";
 import Bottom from "@/components/ui/bottom";
+import Header from "@/components/home/Header";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -31,7 +32,7 @@ export default function RootLayout({
         
       </head>
       <body className={`${poppins.className}, ${titillium.style}`}>
-        <NavBar />
+        <Header />
         {children}
         <Bottom />
       </body>
