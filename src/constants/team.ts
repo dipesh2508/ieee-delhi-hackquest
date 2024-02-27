@@ -13,7 +13,7 @@ export const team:Iteam[] = [
     {
         image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
         position: "Mentor",
-        Name: "Anshul"  
+        Name: "Anshul Yadav"  
       },
     {
         image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
@@ -129,10 +129,5 @@ export const team:Iteam[] = [
         image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Kunal%20Kumar%20Sharma.png",
         position: "Videography Committee Lead",
         Name: "Kunal Kumar Sharma"    
-    },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Agastya_J.png",
-        position: "Webmaster",
-        Name: "Agastya Jhingan"    
     },
 ];
