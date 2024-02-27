@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "@/components/shared/NavBar";
 import Bottom from "@/components/ui/bottom";
 import Header from "@/components/home/Header";
+import ToTop from "@/components/shared/toTop";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body className={`${poppins.className}, ${titillium.style}`}>
         <Header />
         {children}
+        <ToTop />
         <Bottom />
       </body>
     </html>

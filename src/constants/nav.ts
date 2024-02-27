@@ -5,10 +5,6 @@ export interface INavLink {
 
 export const navLinks:INavLink[] = [
     {
-        title: 'Home',
-        path: '#',
-    },
-    {
         title: 'About',
         path: '#about',
     },
