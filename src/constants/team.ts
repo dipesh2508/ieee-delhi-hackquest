@@ -21,7 +21,7 @@ export const team:Iteam[] = [
         Name: "Ashmit Sharma"  
       },
     {
-      image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/PRERNA_YADAV.png",
+      image: "/team/PRERNA_YADAV.jpg",
       position: "Student Section Representative",
       Name: "Prerna Yadav"   
     },
@@ -36,27 +36,27 @@ export const team:Iteam[] = [
         Name: "Riya Choudhary"   
       },  
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Sakshi_Singh.png",
+        image: "/team/Sakshi_Singh.jpg",
         position: "NSM LEAD",
         Name: "Sakshi singh"   
       },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Sarli_Sengar.png",
+        image: "/team/Sarli_Sengar.jpeg",
         position: "NSM Coordinator",
-        Name: "Sarli"   
+        Name: "Sarli Sengar"   
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Aashi_Sharma.png",
+        image: "/team/Aashi_Sharma.png",
         position: "NSM Coordinator",
         Name: "Aashi Sharma"   
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Shaurya_Mehra.png",
+        image: "/team/Shaurya_Mehra.jpg",
         position: "NSM Coordinator",
         Name: "Shaurya Mehra"    
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Husain_Saifee.png",
+        image: "/team/Husain_Saifee.jpg",
         position: "NSM Coordinator",
         Name: "Husain Saifee"   
     },
@@ -71,27 +71,27 @@ export const team:Iteam[] = [
         Name: "Ayush Kumar"   
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Abhishek_Jha.png",
+        image: "/team/Abhishek_Kumar_Jha.png",
         position: "Design Coordinator",
-        Name: "Abhishek Jha"   
+        Name: "Abhishek Kumar Jha"   
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Yashika_Jain.png",
+        image: "/team/Yashika_Jain.jpeg",
         position: "Design Coordinator",
         Name: "Yashika Jain"   
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ishita_Choudhary.png",
+        image: "/team/Ishita_Choudhary.png",
         position: "Editorial Lead",
         Name: "Ishita Choudhary"   
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Dipesh_Ranjan.png",
+        image: "/team/Dipesh_Ranjan.png",
         position: "Editorial Coordinator",
         Name: "Dipesh Ranjan"    
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Sahib_Preet_Singh.png",
+        image: "/team/Sahib_Preet_Singh.jpg",
         position: "Editorial Coordinator",
         Name: "Sahib Preet Singh"   
     },
@@ -101,7 +101,7 @@ export const team:Iteam[] = [
         Name: "Sneha Soniwal"    
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Riya_Singh.png",
+        image: "/team/Riya_Singh.jpg",
         position: "WIE Coordinator",
         Name: "Riya Singh"     
     },
@@ -116,7 +116,7 @@ export const team:Iteam[] = [
         Name: "Arushi Gupta"    
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Prabhjot_Singh.png",
+        image: "/team/Prabhjot_Singh.jpg",
         position: "TAC Coordinator",
         Name: "Prabhjot singh"    
     },
@@ -126,7 +126,7 @@ export const team:Iteam[] = [
         Name: "Ayush Sharma"    
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Kunal%20Kumar%20Sharma.png",
+        image: "/team/Kunal_Kumar_Sharma.jpg",
         position: "Videography Committee Lead",
         Name: "Kunal Kumar Sharma"    
     },

@@ -53,11 +53,11 @@ const Hero = () => {
         }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
-        className="mt-8 flex flex-row items-center gap-24 align-middle"
+        className="mt-8 flex flex-col md:flex-row items-center gap-8 md:gap-24 align-middle"
       >
-        <div>
+        <div className="flex flex-col gap-4 md:gap-6 items-center">
           <div className="mt-4">
-            <h3 className="font-secondary text-4xl text-white">
+            <h3 className="font-secondary text-2xl md:text-4xl text-white">
               Registration
               <span className="text-primary"> Closes</span> In
             </h3>
@@ -65,7 +65,7 @@ const Hero = () => {
           <CountDown />
         </div>
 
-        <Button variant="neon" size="xl" className="mt-4 py-8">
+        <Button variant="neon" size="xl" className="md:mt-4 py-3 md:py-8">
           <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168">
             Register Now
           </Link>

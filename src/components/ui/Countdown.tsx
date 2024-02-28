@@ -9,7 +9,7 @@ const CountDown = () => {
   return (
     <Countdown
       date={Date.now() + regAtDiff}
-      className="bg-gradient-to-r from-primary to-secondary -mt-4 bg-clip-text text-6xl font-bold text-transparent"
+      className="bg-gradient-to-r from-primary to-secondary -mt-4 bg-clip-text text-4xl md:text-6xl justify-center text-center items-center font-bold text-transparent"
     />
   );
 };

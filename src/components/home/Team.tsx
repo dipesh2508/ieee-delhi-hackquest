@@ -25,7 +25,7 @@ const Team = () => {
             className=" flex w-[300px] justify-center rounded-3xl bg-none opacity-90"
           >
             <CardContent className="relative transform overflow-hidden rounded py-0 shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2">
-              <img
+              <Image
                 src={item.image}
                 className="rounded-xl h-full"
                 width="300"
