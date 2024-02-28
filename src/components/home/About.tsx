@@ -27,7 +27,7 @@ const About = () => {
           duration: 0.4,
         }}
         whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount: 0.5 }} className="m-auto flex w-auto flex-col content-center gap-4 rounded-2xl md:col-span-5 md:h-96 md:w-96">
+        viewport={{ once: true, amount: 0.5 }} className="m-auto flex w-auto flex-col content-center gap-4 rounded-2xl col-span-12 md:col-span-5 md:h-96 md:w-96">
         <Image src={About1} alt="about" className="rounded-2xl  " />
       </MotionDiv>
 
@@ -40,7 +40,7 @@ const About = () => {
           duration: 0.4,
         }}
         whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount: 0.5 }} className="m-auto flex flex-col content-center gap-8 py-4 md:col-span-7">
+        viewport={{ once: true, amount: 0.5 }} className="m-auto flex flex-col content-center gap-8 py-4 col-span-12 md:col-span-7">
         <h2 className="font-secondary text-3xl font-semibold text-headings md:text-6xl">
           ABOUT HACKQUEST
         </h2>
@@ -69,7 +69,7 @@ const About = () => {
           duration: 0.4,
         }}
         whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount: 0.5 }} className="m-auto flex flex-col content-center gap-8 py-4 md:col-span-7">
+        viewport={{ once: true, amount: 0.5 }} className="m-auto flex flex-col content-center gap-8 py-4 col-span-12 md:col-span-7">
         <h2 className="font-secondary text-3xl font-semibold text-headings md:text-6xl">
           ABOUT IEEE Delhi Section
         </h2>
@@ -94,7 +94,7 @@ const About = () => {
           duration: 0.4,
         }}
         whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount: 0.5 }} className="m-auto flex w-auto flex-col content-center gap-4 rounded-2xl md:col-span-5 md:h-96 md:w-96">
+        viewport={{ once: true, amount: 0.5 }} className="m-auto flex w-auto flex-col content-center gap-4 rounded-2xl col-span-12 md:col-span-5 md:h-96 md:w-96">
         <Image src={About2} alt="about" className="rounded-2xl  " />
       </MotionDiv>
 

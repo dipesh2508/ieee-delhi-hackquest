@@ -66,7 +66,7 @@ export const team:Iteam[] = [
         Name: "Ansh Arora"   
     },
     {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/AYUSH_KUMAR.png",
+        image: "/team/Ayush_Kumar.png",
         position: "Design Coordinator",
         Name: "Ayush Kumar"   
     },

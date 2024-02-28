@@ -66,7 +66,8 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
       <Card
         className={clsx(
           `col-span-1 my-12 p-6 md:w-[500px]`,
-          left && "order-first place-items-end md:ml-16",
+          left && "order-first place-items-end -mx-6 md:ml-16",
+          !left && "order-last place-items-start -mx-6 md:mx-0",
         )}
       >
         <CardContent className="flex flex-col gap-4 p-2 text-sm text-gray-300">
