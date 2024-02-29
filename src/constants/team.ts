@@ -1,133 +1,169 @@
 export interface Iteam {
-    image: string;
-    position: string;
-    Name: string;
+  image: string;
+  position: string;
+  Name: string;
+  link: string;
 }
 
-export const team:Iteam[] = [
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Kailash_Maurya.png",
-        position: "Mentor",
-        Name: "Kailash Maurya "  
-      },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
-        position: "Mentor",
-        Name: "Anshul Yadav"  
-      },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
-        position: "Student Section Representative",
-        Name: "Ashmit Sharma"  
-      },
-    {
-      image: "/team/PRERNA_YADAV.jpg",
-      position: "Student Section Representative",
-      Name: "Prerna Yadav"   
-    },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Utkarsh_Luthra.png",
-        position: "Student Sub-Section Representative",
-        Name: "Utkarsh_Luthra"   
-      },
-      {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/RIYA_CHOUDHARY.png",
-        position: "Student Sub-Section Representative",
-        Name: "Riya Choudhary"   
-      },  
-    {
-        image: "/team/Sakshi_Singh.jpg",
-        position: "NSM LEAD",
-        Name: "Sakshi singh"   
-      },
-    {
-        image: "/team/Sarli_Sengar.jpeg",
-        position: "NSM Coordinator",
-        Name: "Sarli Sengar"   
-    },
-    {
-        image: "/team/Aashi_Sharma.png",
-        position: "NSM Coordinator",
-        Name: "Aashi Sharma"   
-    },
-    {
-        image: "/team/Shaurya_Mehra.jpg",
-        position: "NSM Coordinator",
-        Name: "Shaurya Mehra"    
-    },
-    {
-        image: "/team/Husain_Saifee.jpg",
-        position: "NSM Coordinator",
-        Name: "Husain Saifee"   
-    },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/ANSH_ARORA.png",
-        position: "Design Lead",
-        Name: "Ansh Arora"   
-    },
-    {
-        image: "/team/Ayush_Kumar.png",
-        position: "Design Coordinator",
-        Name: "Ayush Kumar"   
-    },
-    {
-        image: "/team/Abhishek_Kumar_Jha.png",
-        position: "Design Coordinator",
-        Name: "Abhishek Kumar Jha"   
-    },
-    {
-        image: "/team/Yashika_Jain.jpeg",
-        position: "Design Coordinator",
-        Name: "Yashika Jain"   
-    },
-    {
-        image: "/team/Ishita_Choudhary.png",
-        position: "Editorial Lead",
-        Name: "Ishita Choudhary"   
-    },
-    {
-        image: "/team/Dipesh_Ranjan.png",
-        position: "Editorial Coordinator",
-        Name: "Dipesh Ranjan"    
-    },
-    {
-        image: "/team/Sahib_Preet_Singh.jpg",
-        position: "Editorial Coordinator",
-        Name: "Sahib Preet Singh"   
-    },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/SNEHA_SONIWAL.png",
-        position: "WIE LEAD",
-        Name: "Sneha Soniwal"    
-    },
-    {
-        image: "/team/Riya_Singh.jpg",
-        position: "WIE Coordinator",
-        Name: "Riya Singh"     
-    },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Anshita_Garg.png",
-        position: "WIE Coordinator",
-        Name: "Anshita Garg"    
-    },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Arushi%20Gupta.png",
-        position: "WIE Coordinator",
-        Name: "Arushi Gupta"    
-    },
-    {
-        image: "/team/Prabhjot_Singh.jpg",
-        position: "TAC Coordinator",
-        Name: "Prabhjot singh"    
-    },
-    {
-        image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ayush_Rajpurohit.png",
-        position: "TAC Coordinator",
-        Name: "Ayush Sharma"    
-    },
-    {
-        image: "/team/Kunal_Kumar_Sharma.jpg",
-        position: "Videography Committee Lead",
-        Name: "Kunal Kumar Sharma"    
-    },
+export const team: Iteam[] = [
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Kailash_Maurya.png",
+    position: "Mentor",
+    Name: "Kailash Maurya ",
+    link: "",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
+    position: "Mentor",
+    Name: "Anshul Yadav",
+    link: "",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
+    position: "Student Section Representative",
+    Name: "Ashmit Sharma",
+    link: "",
+  },
+  {
+    image: "/team/Prerna_Yadav.jpg",
+    position: "Student Section Representative",
+    Name: "Prerna Yadav",
+    link: "https://www.linkedin.com/in/prerna-yd/",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Utkarsh_Luthra.png",
+    position: "Student Sub-Section Representative",
+    Name: "Utkarsh_Luthra",
+    link: "",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/RIYA_CHOUDHARY.png",
+    position: "Student Sub-Section Representative",
+    Name: "Riya Choudhary",
+    link: "https://www.linkedin.com/in/riya-choudhary-50869826b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    image: "/team/Sakshi_Singh.jpg",
+    position: "NSM LEAD",
+    Name: "Sakshi singh",
+    link: "https://www.linkedin.com/in/sakshi-singh-445a23231",
+  },
+  {
+    image: "/team/Sarli_Sengar.jpeg",
+    position: "NSM Coordinator",
+    Name: "Sarli Sengar",
+    link: "https://www.linkedin.com/in/sarli-sengar-5093a322a/",
+  },
+  {
+    image: "/team/Aashi_Sharma.png",
+    position: "NSM Coordinator",
+    Name: "Aashi Sharma",
+    link: "https://www.linkedin.com/in/aashi-sharma-3a0358252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    image: "/team/Shaurya_Mehra.jpg",
+    position: "NSM Coordinator",
+    Name: "Shaurya Mehra",
+    link: "https://www.linkedin.com/in/mehrashaurya/",
+  },
+  {
+    image: "/team/Husain_Saifee.jpg",
+    position: "NSM Coordinator",
+    Name: "Husain Saifee",
+    link: "https://www.linkedin.com/in/ishita-choudhary-b40a5a1b1/",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/ANSH_ARORA.png",
+    position: "Design Lead",
+    Name: "Ansh Arora",
+    link: "http://www.linkedin.com/in/ansharora27",
+  },
+  {
+    image: "/team/Ayush_Kumar.png",
+    position: "Design Coordinator",
+    Name: "Ayush Kumar",
+    link: "https://www.linkedin.com/in/ayush-kumar-7b2a59142/",
+  },
+  {
+    image: "/team/Abhishek_Kumar_Jha.png",
+    position: "Design Coordinator",
+    Name: "Abhishek Kumar Jha",
+    link: "https://www.linkedin.com/in/abhishek-jha-670208204",
+  },
+  {
+    image: "/team/Yashika_Jain.jpeg",
+    position: "Design Coordinator",
+    Name: "Yashika Jain",
+    link: "https://www.instagram.com/yaashikaa_jainn?igsh=MWZuZjRuczdpOWdwcA%3D%3D&utm_source=qr",
+  },
+  {
+    image: "/team/Ishita_Choudhary.png",
+    position: "Editorial Lead",
+    Name: "Ishita Choudhary",
+    link: "https://www.linkedin.com/in/ishita-choudhary-b40a5a1b1/",
+  },
+  {
+    image: "/team/Dipesh_Ranjan.png",
+    position: "Editorial Coordinator",
+    Name: "Dipesh Ranjan",
+    link: "https://www.linkedin.com/in/dipesh-ranjan/",
+  },
+  {
+    image: "/team/Sahib_Preet_Singh.jpg",
+    position: "Editorial Coordinator",
+    Name: "Sahib Preet Singh",
+    link: "https://www.linkedin.com/in/sahib-preet-singh/",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/SNEHA_SONIWAL.png",
+    position: "WIE LEAD",
+    Name: "Sneha Soniwal",
+    link: "https://www.linkedin.com/in/sneha-soniwal-7b8953211/",
+  },
+  {
+    image: "/team/Riya_Singh.jpg",
+    position: "WIE Coordinator",
+    Name: "Riya Singh",
+    link: "https://www.linkedin.com/in/riya-singh-415a45253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Anshita_Garg.png",
+    position: "WIE Coordinator",
+    Name: "Anshita Garg",
+    link: "",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Arushi%20Gupta.png",
+    position: "WIE Coordinator",
+    Name: "Arushi Gupta",
+    link: "https://www.linkedin.com/in/arushi-gupta-443896223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    image: "/team/Prabhjot_Singh.jpg",
+    position: "TAC Coordinator",
+    Name: "Prabhjot singh",
+    link: "https://www.linkedin.com/in/prabhjot-singh-559b20244",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ayush_Rajpurohit.png",
+    position: "TAC Coordinator",
+    Name: "Ayush Sharma",
+    link: "",
+  },
+  {
+    image: "/team/Kunal_Kumar_Sharma.jpg",
+    position: "Videography Committee Lead",
+    Name: "Kunal Kumar Sharma",
+    link: "https://www.linkedin.com/in/kunal-kumar-sharma-42aa64246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 ];

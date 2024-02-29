@@ -35,7 +35,7 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
       viewport={{ once: true, amount: 0.5 }}
       className="container relative grid grid-cols-2 gap-20 px-4 md:px-6"
     >
-      <div className="absolute left-1/2 h-full w-2 bg-secondary"></div>
+      <div className="absolute left-1/2 h-full w-1.5 md:w-2 bg-secondary"></div>
 
       <div
         className={clsx(
@@ -65,13 +65,13 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
 
       <Card
         className={clsx(
-          `col-span-1 my-12 p-6 md:w-[500px]`,
-          left && "order-first place-items-end -mx-6 md:ml-16",
-          !left && "order-last place-items-start -mx-6 md:mx-0",
+          `col-span-1 my-12 p-6 w-36 md:w-[500px]`,
+          left && "order-first -mx-6 place-items-end md:ml-16",
+          !left && "order-last -mx-4 place-items-start md:mx-0",
         )}
       >
-        <CardContent className="flex flex-col gap-4 p-2 text-sm text-gray-300">
-          <div className="font-semibold">{time}</div>
+        <CardContent className="flex flex-col gap-4 p-2 text-xs text-gray-300">
+          <div className="font-semibold text-base">{time}</div>
           <p>{description}</p>
         </CardContent>
       </Card>
