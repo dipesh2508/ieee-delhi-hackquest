@@ -15,14 +15,14 @@ export const team: Iteam[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
+      "/team/Anshul_Yadav.png",
     position: "Mentor",
     Name: "Anshul Yadav",
     link: "",
   },
   {
     image:
-      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ashmit_Sharma.png",
+      "/team/Ashmit_Sharma.JPG",
     position: "Student Section Representative",
     Name: "Ashmit Sharma",
     link: "",
@@ -35,9 +35,9 @@ export const team: Iteam[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Utkarsh_Luthra.png",
+      "/team/Utkarsh_Luthra.JPG",
     position: "Student Sub-Section Representative",
-    Name: "Utkarsh_Luthra",
+    Name: "Utkarsh Luthra",
     link: "",
   },
   {
@@ -103,7 +103,7 @@ export const team: Iteam[] = [
     link: "https://www.instagram.com/yaashikaa_jainn?igsh=MWZuZjRuczdpOWdwcA%3D%3D&utm_source=qr",
   },
   {
-    image: "/team/Ishita_Choudhary.png",
+    image: "/team/Ishita_Choudhary.JPG",
     position: "Editorial Lead",
     Name: "Ishita Choudhary",
     link: "https://www.linkedin.com/in/ishita-choudhary-b40a5a1b1/",
@@ -152,13 +152,6 @@ export const team: Iteam[] = [
     position: "TAC Coordinator",
     Name: "Prabhjot singh",
     link: "https://www.linkedin.com/in/prabhjot-singh-559b20244",
-  },
-  {
-    image:
-      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Ayush_Rajpurohit.png",
-    position: "TAC Coordinator",
-    Name: "Ayush Sharma",
-    link: "",
   },
   {
     image: "/team/Kunal_Kumar_Sharma.jpg",

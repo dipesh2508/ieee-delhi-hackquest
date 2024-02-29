@@ -6,19 +6,19 @@ export interface INavLink {
 export const navLinks:INavLink[] = [
     {
         title: 'About',
-        path: '#about',
+        path: '/#about',
     },
     {
         title: 'Tracks',
-        path: '#tracks',
+        path: '/#tracks',
     },
     {
         title: 'Timeline',
-        path: '#timeline',
+        path: '/#timeline',
     },
     {
         title: 'FAQs',
-        path: '#faqs',
+        path: '/#faqs',
     },
     {
         title: 'Collaborate with Us',
