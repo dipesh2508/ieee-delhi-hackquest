@@ -28,7 +28,7 @@ export const team: Iteam[] = [
     link: "",
   },
   {
-    image: "/team/Prerna_Yadav.jpg",
+    image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/PRERNA_YADAV.JPG",
     position: "Student Section Representative",
     Name: "Prerna Yadav",
     link: "https://www.linkedin.com/in/prerna-yd/",
@@ -85,7 +85,7 @@ export const team: Iteam[] = [
     link: "http://www.linkedin.com/in/ansharora27",
   },
   {
-    image: "/team/Ayush_Kumar.png",
+    image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/AYUSH_KUMAR.png",
     position: "Design Coordinator",
     Name: "Ayush Kumar",
     link: "https://www.linkedin.com/in/ayush-kumar-7b2a59142/",
