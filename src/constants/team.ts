@@ -11,21 +11,21 @@ export const team: Iteam[] = [
       "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Kailash_Maurya.png",
     position: "Mentor",
     Name: "Kailash Maurya ",
-    link: "",
+    link: "https://www.linkedin.com/in/kailash-maurya-032898208/",
   },
   {
     image:
       "/team/Anshul_Yadav.png",
     position: "Mentor",
     Name: "Anshul Yadav",
-    link: "",
+    link: "https://www.linkedin.com/in/anshul-yd/",
   },
   {
     image:
       "/team/Ashmit_Sharma.JPG",
     position: "Student Section Representative",
     Name: "Ashmit Sharma",
-    link: "",
+    link: "https://www.linkedin.com/in/ashmit-sharma-023490227/",
   },
   {
     image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/PRERNA_YADAV.JPG",
@@ -38,7 +38,7 @@ export const team: Iteam[] = [
       "/team/Utkarsh_Luthra.JPG",
     position: "Student Sub-Section Representative",
     Name: "Utkarsh Luthra",
-    link: "",
+    link: "https://www.linkedin.com/in/utkarshluthra/",
   },
   {
     image:
@@ -138,7 +138,7 @@ export const team: Iteam[] = [
       "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Anshita_Garg.png",
     position: "WIE Coordinator",
     Name: "Anshita Garg",
-    link: "",
+    link: "https://www.linkedin.com/in/anshita-garg-8286a5231/",
   },
   {
     image:
