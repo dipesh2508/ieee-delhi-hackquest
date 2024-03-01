@@ -34,7 +34,7 @@ export const Sac: SAC[] = [
 export const team: Iteam[] = [
   {
     image:
-      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Kailash_Maurya.png",
+      "/team/Kailash_Maurya.png",
     position: "Mentor",
     Name: "Kailash Maurya ",
     link: "https://www.linkedin.com/in/kailash-maurya-032898208/",
@@ -68,13 +68,13 @@ export const team: Iteam[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/RIYA_CHOUDHARY.png",
+      "/team/RIYA_CHOUDHARY.jpg",
     position: "Student Sub-Section Representative",
     Name: "Riya Choudhary",
     link: "https://www.linkedin.com/in/riya-choudhary-50869826b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    image: "/team/Sakshi_Singh.jpg",
+    image: "/team/Sakshi_Singh.png",
     position: "NSM LEAD",
     Name: "Sakshi singh",
     link: "https://www.linkedin.com/in/sakshi-singh-445a23231",
@@ -161,7 +161,7 @@ export const team: Iteam[] = [
   },
   {
     image:
-      "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Anshita_Garg.png",
+      "/team/Anshita_Garg.jpg",
     position: "WIE Coordinator",
     Name: "Anshita Garg",
     link: "https://www.linkedin.com/in/anshita-garg-8286a5231/",
