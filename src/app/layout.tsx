@@ -65,7 +65,6 @@ export default function RootLayout({
         />
       </head>
       <body className={`${poppins.className}, ${titillium.style}`}>
-        <Analytics />
         <SpeedInsights />
         <Header />
         {children}
