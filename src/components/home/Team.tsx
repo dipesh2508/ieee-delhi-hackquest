@@ -15,7 +15,7 @@ const Team = () => {
       <div className="pt-12">
         <Card className=" flex w-[300px] justify-center rounded-3xl bg-none opacity-90">
           <CardContent className="relative transform overflow-hidden rounded py-0 shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2">
-            <Image
+            <img
               src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/rachna_maam2.jpg"
               className="h-full rounded-xl"
               width="300"
@@ -35,7 +35,7 @@ const Team = () => {
         {Sac.map((item, index) => (
           <Card key={index} className=" flex w-[300px] justify-center rounded-3xl bg-none opacity-90">
           <CardContent className="relative transform overflow-hidden rounded py-0 shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2">
-            <Image
+            <img
               src={item.image}
               className="h-full rounded-xl"
               width="300"
@@ -62,12 +62,13 @@ const Team = () => {
           <Link href={item.link} key={index}>
             <Card className=" flex w-[300px] justify-center rounded-3xl bg-none opacity-90">
               <CardContent className="relative transform overflow-hidden rounded py-0 shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2">
-                <Image
+                <img
                   src={item.image}
                   className="h-full rounded-xl"
                   width="300"
                   height="300"
                   alt={item.Name}
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 ml-5 flex w-[260px] flex-col justify-center rounded-xl  bg-black bg-opacity-75 px-5 text-center opacity-0 transition-opacity duration-300 hover:border-2 hover:border-headings hover:opacity-100">
                   <CardTitle>{item.Name}</CardTitle>
