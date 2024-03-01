@@ -1,17 +1,10 @@
 import Image from "next/image";
-import React from "react";
-import { Button } from "./button";
 import Link from "next/link";
 import { sm_handles, quicklinks } from "@/constants/footer";
 
 const Bottom = () => {
-
-  const contact_details = [
-    ["/social_media/mail.svg", "hackquest24@gmail.com"],
-    ["/social_media/phone.svg", "Ashmit: +91 9999888888"],
-  ];
   return (
-    <div className="flex flex-wrap justify-center sm:flex w-full sm:justify-between  bg-black px-[5.5vw] py-[8.5vh] text-white gap-4 sm:gap-0">
+    <footer className="flex flex-wrap justify-center sm:flex w-full sm:justify-between  bg-black px-[5.5vw] py-[8.5vh] text-white gap-4 sm:gap-0">
       <div className="flex flex-col">
         <Image src="/logo.png" width={200} height={150} alt="logo" />
         <div className="flex gap-5 pl-8">
@@ -58,7 +51,7 @@ const Bottom = () => {
 
           
       </div> 
-    </div>
+    </footer>
   );
 };
 

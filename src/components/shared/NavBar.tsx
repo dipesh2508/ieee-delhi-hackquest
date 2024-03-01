@@ -9,7 +9,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full flex flex-row items-center gap-8 justify-center mt-8 align-middle h-auto">
+    <nav className="w-full flex flex-row items-center gap-8 justify-center mt-8 align-middle h-auto">
       <div className="w-48 ml-12 hidden md:block font-primary">
         <Image src={logo} alt="logo" />
       </div>
@@ -76,7 +76,7 @@ const NavBar = () => {
           </div>
         )}
       </div>
-    </div>
+    </nav>
   );
 };
 

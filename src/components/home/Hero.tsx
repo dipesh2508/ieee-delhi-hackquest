@@ -25,7 +25,7 @@ const Hero = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="mx-8 font-secondary text-9xl font-bold text-white md:mx-64"
       >
-        <Image src={logo} alt="logo" />
+        <Image src={logo} alt="HackQuest" />
       </MotionDiv>
       <MotionDiv
         variants={variants}
@@ -38,8 +38,8 @@ const Hero = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <h3 className="text-lg text-slate-50 md:text-4xl">
-          HURDLE | HACK | HUSTLE
+        <h3 className="text-lg text-slate-50 font-semibold md:text-4xl">
+          HURDLE&#160;&#160; |&#160;&#160; HACK&#160;&#160; | &#160;&#160;HUSTLE
         </h3>
       </MotionDiv>
 

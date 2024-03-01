@@ -72,7 +72,7 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
       >
         <CardContent className="flex flex-col gap-4 p-2 text-xs text-gray-300">
           <div className="font-semibold text-base">{time}</div>
-          <p>{description}</p>
+          <p className="text-sm">{description}</p>
         </CardContent>
       </Card>
     </MotionDiv>

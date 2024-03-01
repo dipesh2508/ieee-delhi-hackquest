@@ -22,10 +22,10 @@ const Header = () => {
       return () => window.removeEventListener('scroll', handleScroll);
     }, [isVisible]);
   return (
-    <section className="fixed z-50 top-0 w-full">
+    <header className="fixed z-50 top-0 w-full">
         {isVisible && <ScrollNavBar />}
         {!isVisible && <NavBar />}
-    </section>
+    </header>
   )
 }
 

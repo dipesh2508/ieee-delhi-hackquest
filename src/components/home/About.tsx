@@ -45,23 +45,23 @@ const About = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="col-span-12 m-auto flex flex-col content-center gap-8 py-4 md:col-span-7"
       >
-        <h2 className="font-secondary text-3xl font-semibold text-headings md:text-6xl">
-          ABOUT HACKQUEST
+        <h2 className="font-secondary text-3xl font-semibold text-headings md:text-5xl">
+          ABOUT IEEE Delhi Section
         </h2>
         <p className="text-justify font-primary text-base font-thin text-white md:text-xl">
-          Discover the pulse-pounding excitement of HackQuest, the premier event
-          hosted by IEEE Delhi Section SAC. Dive into a world of innovation and
-          collaboration, where challenges ignite creativity and connections
-          thrive. Get ready to unleash your potential and conquer cutting-edge
-          technology challenges!
+          IEEE Delhi Section is one of the 13 Sections in India Council coming
+          under Asia-Pacific Region, the Region-10 of IEEE. At present it covers
+          entire northern part of the country consisting of the four states of
+          Rajasthan, Haryana, Punjab, Himachal Pradesh, and the National Capital
+          Territory of Delhi, Union Territories of Chandigarh, Jammu & Kashmir,
+          Ladakh.
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
-            <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168">
-              Know More
-            </Link>
+            <Link href="https://ieeedelhisac.in/">Know More</Link>
           </Button>
         </div>
+       
       </MotionDiv>
 
       <MotionDiv
@@ -76,20 +76,21 @@ const About = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="col-span-12 m-auto flex flex-col content-center gap-8 py-4 md:col-span-7"
       >
-        <h2 className="font-secondary text-3xl font-semibold text-headings md:text-6xl">
-          ABOUT IEEE Delhi Section
+         <h2 className="font-secondary text-3xl font-semibold text-headings md:text-5xl">
+          {"ABOUT IEEE Delhi Section SAC's HACKQUEST"}
         </h2>
         <p className="text-justify font-primary text-base font-thin text-white md:text-xl">
-          IEEE Delhi Section is one of the 13 Sections in India Council coming
-          under Asia-Pacific Region, the Region-10 of IEEE. At present it covers
-          entire northern part of the country consisting of the four states of
-          Rajasthan, Haryana, Punjab, Himachal Pradesh, and the National Capital
-          Territory of Delhi, Union Territories of Chandigarh, Jammu & Kashmir,
-          Ladakh.
+          Discover the pulse-pounding excitement of HackQuest, the premier event
+          hosted by IEEE Delhi Section SAC. Dive into a world of innovation and
+          collaboration, where challenges ignite creativity and connections
+          thrive. Get ready to unleash your potential and conquer cutting-edge
+          technology challenges!
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
-            <Link href="https://ieeedelhisac.in/">Know More</Link>
+            <Link href="https://www.instagram.com/hack_quest.ds/">
+              Know More
+            </Link>
           </Button>
         </div>
       </MotionDiv>
