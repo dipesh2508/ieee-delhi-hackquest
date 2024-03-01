@@ -13,17 +13,17 @@ export interface SAC {
 
 export const Sac: SAC[] = [
   {
-    image: "/team/Rashmi_Agarwal.jpeg",
+    image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Rashmi_Agarwal.jpeg",
     position: "SAC Member",
     Name: "Prof. Rashmi Agarwal",
   },
   {
-    image: "/team/Jeetu.jpeg",
+    image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Jeetu.jpeg",
     position: "SAC Member",
     Name: "Prof. Jeetu Sharma",
   },
   {
-    image: "/team/Shruti_Jain.jpg",
+    image: "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/Shruti_Jain.jpg",
     position: "SAC Member",
     Name: "Prof. Shruti Jain",
   },

@@ -16,7 +16,7 @@ const Team = () => {
         <Card className=" flex w-[300px] justify-center rounded-3xl bg-none opacity-90">
           <CardContent className="relative transform overflow-hidden rounded py-0 shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2">
             <Image
-              src="/team/rachna_maam2.jpg"
+              src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/rachna_maam2.jpg"
               className="h-full rounded-xl"
               width="300"
               height="300"
