@@ -5,6 +5,32 @@ export interface Iteam {
   link: string;
 }
 
+export interface SAC {
+  image: string;
+  position: string;
+  Name: string;
+}
+
+export const Sac: SAC[] = [
+  {
+    image: "/team/Rashmi_Agarwal.jpeg",
+    position: "SAC Member",
+    Name: "Prof. Rashmi Agarwal",
+  },
+  {
+    image: "/team/Jeetu.jpeg",
+    position: "SAC Member",
+    Name: "Prof. Jeetu Sharma",
+  },
+  {
+    image: "/team/Shruti_Jain.jpg",
+    position: "SAC Member",
+    Name: "Prof. Shruti Jain",
+  },
+];
+
+
+
 export const team: Iteam[] = [
   {
     image:
