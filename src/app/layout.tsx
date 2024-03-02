@@ -7,6 +7,7 @@ import Header from "@/components/home/Header";
 import ToTop from "@/components/shared/toTop";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,9 +22,9 @@ const titillium = Titillium_Web({
 export const metadata: Metadata = {
   title: "HackQuest",
   description:
-    "Hackathon organized by IEEE Delhi Section Students Activities Committee",
+    "HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges, learn new skills, and win exciting prizes. Choose from various tracks and collaborate with other hackers. Hurry, registration closes soon!",
   keywords:
-    "hackathon, ieee, delhi, section, hackquest, healthtech, cybersecurity, offline, online, hack, hustle, hurdle",
+    "hackathon, events, ieee, delhi, section, sac, hackquest, healthtech, cybersecurity, offline, online, hack, hustle, hurdle, 2024",
   robots: "index, follow",
   authors: [{ name: "IEEE Delhi Section SAC" }, { name: "Dipesh Ranjan" }],
 };
@@ -37,10 +38,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Open Graph Meta Tags (for social media sharing) */}
-        <meta property="og:title" content="HackQues: Hurdle | Hack | Hustle" />
+        <meta property="og:title" content="HackQuest: Hurdle | Hack | Hustle" />
         <meta
           property="og:description"
-          content="Hackathon organized by IEEE Delhi Section Students Activities Committee"
+          content="HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges, learn new skills, and win exciting prizes. Choose from various tracks and collaborate with other hackers. Hurry, registration closes soon!"
         />
         <meta
           property="og:image"
@@ -49,28 +50,16 @@ export default function RootLayout({
         {/* Replace with your actual image URL */}
         <meta property="og:url" content="https://www.hackquest.in" />
         <meta property="og:type" content="website" />
-        {/* Google tag (gtag.js) */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: ` window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}")`,
-          }}
-        />
       </head>
       <body className={`${poppins.className}, ${titillium.style}`}>
+        <Analytics />
         <SpeedInsights />
         <Header />
         {children}
         <ToTop />
         <Bottom />
       </body>
+      <GoogleAnalytics gaId="G-SDDY8MD257" />
     </html>
   );
 }

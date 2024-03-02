@@ -9,9 +9,9 @@ const Team = () => {
   return (
     <div className="flex flex-col items-center text-white">
       <div>
-        <h1 className="mt-6 font-primary text-3xl font-semibold text-headings md:text-5xl">
+        <h2 className="mt-6 font-primary text-3xl font-semibold text-headings md:text-5xl">
           IEEE DELHI SECTION SAC TEAM
-        </h1>
+        </h2>
       </div>
       <div className="pt-12">
         <Card className=" flex w-[300px] justify-center rounded-3xl bg-none opacity-90">
@@ -21,7 +21,7 @@ const Team = () => {
               className="h-full rounded-xl"
               width="300"
               height="300"
-              alt="rachna"
+              alt="rachana"
             />
             <div className="absolute inset-0 ml-5 flex w-[260px] flex-col justify-center rounded-xl  bg-black bg-opacity-75 px-5 text-center opacity-0 transition-opacity duration-300 hover:border-2 hover:border-headings hover:opacity-100">
               <CardTitle>Prof. Rachana Garg</CardTitle>
@@ -60,9 +60,9 @@ const Team = () => {
         <Button className="block md:hidden">Know Our Team</Button>
       </Link>
       <div className="-mt-28 w-full  pb-20 text-center md:mt-16">
-        <h1 className="hidden font-primary text-3xl font-semibold text-headings md:block md:text-5xl">
+        <h2 className="hidden font-primary text-3xl font-semibold text-headings md:block md:text-5xl">
           MEET OUR SECTION STUDENT NETWORK TEAM
-        </h1>
+        </h2>
       </div>
       <div className="hidden w-[90%] flex-wrap justify-center gap-y-8 md:visible md:flex">
         {team.map((item, index) => (
