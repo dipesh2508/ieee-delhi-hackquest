@@ -30,7 +30,8 @@ const About = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="col-span-12 m-auto w-auto bg-white align-middle grid content-center gap-4 rounded-2xl md:col-span-5 md:h-80"
       >
-        <Image src={About1} alt="about" className="rounded-2xl  " />
+        {/* <Image src={About1} alt="about" className="rounded-2xl  " /> */}
+        <img src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/src/assets/About1.gif" alt="IEEE Delhi SSN" className="rounded-2xl" />
       </MotionDiv>
 
       <MotionDiv
@@ -107,7 +108,8 @@ const About = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="col-span-12 m-auto w-auto bg-white align-middle grid content-center gap-4 rounded-2xl md:col-span-5"
       >
-        <Image src={About2} alt="about" className="rounded-2xl" />
+        <img src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/src/assets/About2.jpg" alt="Hackquest" className="rounded-2xl" />
+        {/* <Image src={About2} alt="about" className="rounded-2xl" /> */}
       </MotionDiv>
 
       <div className="col-span-12 mt-16 h-1 w-full rounded-full bg-gradient-to-l from-primary to-secondary"></div>
