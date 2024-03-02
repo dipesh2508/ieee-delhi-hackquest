@@ -42,7 +42,7 @@ const ScrollNavBar = () => {
             data-collapse-toggle="navbar-default"
             type="button"
             onClick={() => setIsOpen(!isOpen)} //  Event handler for a click event that toggles the value of isOpen.
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-primary hover:bg-purple-200 focus:outline-none focus:ring-2 focus:ring-primary dark:text-purple-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-primary hover:bg-cyan-200 focus:outline-none focus:ring-2 focus:ring-primary dark:text-cyan-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -112,7 +112,7 @@ const ScrollNavBar = () => {
                 href={`#${data.path}`}
                 onClick={() => setIsOpen(false)}
                 key={id}
-                className="block py-2 pl-3 pr-4 hover:rounded hover:bg-purple-300 hover:text-secondary"
+                className="block py-2 pl-3 pr-4 hover:rounded hover:bg-cyan-300 hover:text-secondary"
               >
                 {data.title}
               </Link>

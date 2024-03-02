@@ -22,7 +22,7 @@ const titillium = Titillium_Web({
 export const metadata: Metadata = {
   title: "HackQuest",
   description:
-    "HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges, learn new skills, and win exciting prizes. Choose from various tracks and collaborate with other hackers. Hurry, registration closes soon!",
+    "HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges and learn new skills",
   keywords:
     "hackathon, events, ieee, delhi, section, sac, hackquest, healthtech, cybersecurity, offline, online, hack, hustle, hurdle, 2024",
   robots: "index, follow",
@@ -41,7 +41,7 @@ export default function RootLayout({
         <meta property="og:title" content="HackQuest: Hurdle | Hack | Hustle" />
         <meta
           property="og:description"
-          content="HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges, learn new skills, and win exciting prizes. Choose from various tracks and collaborate with other hackers. Hurry, registration closes soon!"
+          content="HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges and learn new skills"
         />
         <meta
           property="og:image"
@@ -59,7 +59,7 @@ export default function RootLayout({
         <ToTop />
         <Bottom />
       </body>
-      <GoogleAnalytics gaId="G-SDDY8MD257" />
+      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`} />
     </html>
   );
 }

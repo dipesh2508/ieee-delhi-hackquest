@@ -76,9 +76,9 @@ const About = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="col-span-12 m-auto flex flex-col content-center gap-8 py-4 md:col-span-7"
       >
-         <h2 className="font-secondary text-3xl font-semibold text-headings md:text-5xl">
+         <h1 className="font-secondary text-3xl font-semibold text-headings md:text-5xl">
           {"ABOUT IEEE Delhi Section SAC's HACKQUEST"}
-        </h2>
+        </h1>
         <p className="text-justify font-primary text-base font-thin text-white md:text-xl">
           Discover the pulse-pounding excitement of HackQuest, the premier event
           hosted by IEEE Delhi Section SAC. Dive into a world of innovation and

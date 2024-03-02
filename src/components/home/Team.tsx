@@ -8,8 +8,8 @@ import { Button } from "../ui/button";
 const Team = () => {
   return (
     <div className="flex flex-col items-center text-white">
-      <div>
-        <h2 className="mt-6 font-primary text-3xl font-semibold text-headings md:text-5xl">
+      <div className="mx-8 text-center">
+        <h2 className="mt-6 font-primary text-center text-3xl font-semibold text-headings md:text-5xl">
           IEEE DELHI SECTION SAC TEAM
         </h2>
       </div>

@@ -101,7 +101,7 @@ export const team: Iteam[] = [
     image: "/team/Husain_Saifee.jpg",
     position: "NSM Coordinator",
     Name: "Husain Saifee",
-    link: "https://www.linkedin.com/in/ishita-choudhary-b40a5a1b1/",
+    link: "https://www.linkedin.com/in/husain-saifee-29b973220/",
   },
   {
     image:
