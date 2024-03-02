@@ -1,7 +1,7 @@
 import { Button } from "../ui/button";
 import Image from "next/image";
-import About1 from "@/assets/About1.jpg";
-import About2 from "@/assets/About2.png";
+import About1 from '@/assets/About1.gif'
+import About2 from "@/assets/About2.jpg";
 import Link from "next/link";
 import { MotionDiv } from "../animation/motionDiv";
 
@@ -28,7 +28,7 @@ const About = () => {
         }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
-        className="col-span-12 m-auto flex w-auto flex-col content-center gap-4 rounded-2xl md:col-span-5 md:h-96 md:w-96"
+        className="col-span-12 m-auto w-auto bg-white align-middle grid content-center gap-4 rounded-2xl md:col-span-5 md:h-80"
       >
         <Image src={About1} alt="about" className="rounded-2xl  " />
       </MotionDiv>
@@ -43,7 +43,7 @@ const About = () => {
         }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
-        className="col-span-12 m-auto flex flex-col content-center gap-8 py-4 md:col-span-7"
+        className="col-span-12 m-auto flex flex-col content-center gap-6 py-4 md:col-span-7"
       >
         <h2 className="font-secondary text-3xl font-semibold text-headings md:text-5xl">
           ABOUT IEEE Delhi Section
@@ -105,9 +105,9 @@ const About = () => {
         }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
-        className="col-span-12 m-auto flex w-auto flex-col content-center gap-4 rounded-2xl md:col-span-5 md:h-96 md:w-96"
+        className="col-span-12 m-auto w-auto bg-white align-middle grid content-center gap-4 rounded-2xl md:col-span-5"
       >
-        <Image src={About2} alt="about" className="rounded-2xl  " />
+        <Image src={About2} alt="about" className="rounded-2xl" />
       </MotionDiv>
 
       <div className="col-span-12 mt-16 h-1 w-full rounded-full bg-gradient-to-l from-primary to-secondary"></div>
