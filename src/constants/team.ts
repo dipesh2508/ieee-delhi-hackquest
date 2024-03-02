@@ -75,7 +75,7 @@ export const team: Iteam[] = [
   },
   {
     image: "/team/Sakshi_Singh.png",
-    position: "NSM LEAD",
+    position: "NSM Lead",
     Name: "Sakshi singh",
     link: "https://www.linkedin.com/in/sakshi-singh-445a23231",
   },
@@ -149,7 +149,7 @@ export const team: Iteam[] = [
   {
     image:
       "https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/team/SNEHA_SONIWAL.png",
-    position: "WIE LEAD",
+    position: "WIE Lead",
     Name: "Sneha Soniwal",
     link: "https://www.linkedin.com/in/sneha-soniwal-7b8953211/",
   },
@@ -180,7 +180,7 @@ export const team: Iteam[] = [
     link: "https://www.linkedin.com/in/prabhjot-singh-559b20244",
   },
   {
-    image: "/team/Kunal_Kumar_Sharma.jpg",
+    image: "/team/Kunal_Kumar_Sharma.png",
     position: "Videography Committee Lead",
     Name: "Kunal Kumar Sharma",
     link: "https://www.linkedin.com/in/kunal-kumar-sharma-42aa64246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

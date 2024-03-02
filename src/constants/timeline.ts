@@ -11,9 +11,9 @@ export const timelineData: ITimelineProps[] = [
     left: false,
     title: "Submission Round (via Unstop)",
     date: "20th March 2024",
-    time: "opens 3rd February 2024",
+    time: "opens 3rd March 2024",
     description:
-      "The PPT for the problem statement is to be submitted on Unstop. The submission will be open from 23rd February 2024 to 9th March 2024.",
+      "The PPT for the problem statement is to be submitted on Unstop. The submission will be open from 3rd March 2024 to 20th March 2024.",
   },
   {
     left: true,

@@ -59,7 +59,7 @@ export default function RootLayout({
         <ToTop />
         <Bottom />
       </body>
-      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`} />
+      <GoogleAnalytics gaId="G-SDDY8MD257" />
     </html>
   );
 }
