@@ -50,7 +50,7 @@ const NavBar = () => {
             {link.title}
           </Link>
         ))}
-        <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168">
+        <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA">
           <Button className="hidden rounded-full px-6 md:block">
             Register
           </Button>

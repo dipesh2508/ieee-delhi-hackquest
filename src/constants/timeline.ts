@@ -9,9 +9,25 @@ export interface ITimelineProps {
 export const timelineData: ITimelineProps[] = [
   {
     left: false,
+    title: "Registration Opens",
+    date: "5th March 2024",
+    time: "opens 5rd March 2024",
+    description:
+      "The registration for the hackathon will open on 5th March 2024. The registration link will be available on the website and social media handles.",
+  },
+  {
+    left: true,
+    title: "Registration Closes",
+    date: "19th March 2024",
+    time: "closes 19th March 2024",
+    description:
+      "The registration for the hackathon will close on 19th March 2024. The registration link will be available on the website and social media handles.",
+  },
+  {
+    left: false,
     title: "Submission Round (via Unstop)",
     date: "20th March 2024",
-    time: "opens 3rd March 2024",
+    time: "opens 5th March 2024 and closes on 20th March 2024",
     description:
       "The PPT for the problem statement is to be submitted on Unstop. The submission will be open from 3rd March 2024 to 20th March 2024.",
   },

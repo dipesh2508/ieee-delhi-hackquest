@@ -39,7 +39,7 @@ const Hero = () => {
         viewport={{ once: true, amount: 0.5 }}
       >
         <h3 className="text-lg text-slate-50 font-semibold md:text-4xl">
-          HURDLE&#160;&#160; |&#160;&#160; HACK&#160;&#160; | &#160;&#160;HUSTLE
+          HURDLE&#160;&#160;&#160; |&#160;&#160;&#160; HACK&#160;&#160;&#160; | &#160;&#160;&#160;HUSTLE
         </h3>
       </MotionDiv>
 
@@ -59,14 +59,14 @@ const Hero = () => {
           <div className="mt-4">
             <h3 className="font-secondary text-2xl md:text-4xl text-white">
               Registration
-              <span className="text-primary"> Closes</span> In
+              <span className="text-primary"> Opens</span> In
             </h3>
           </div>
           <CountDown />
         </div>
 
         <Button variant="neon" size="xl" className="md:mt-4 py-3 md:py-8">
-          <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168">
+          <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA">
             Register Now
           </Link>
         </Button>

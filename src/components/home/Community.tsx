@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { sponsors } from "@/constants/sponsor";
+import { community } from "@/constants/community";
 import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
@@ -12,17 +12,17 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent, CardTitle } from "@/components/ui/Card";
 
-const Sponsors = () => {
+const Community = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 4000, stopOnInteraction: true }),
   );
   return (
-    <section className="flex w-full flex-col items-center md:px-36 py-36 font-primary text-white">
+    <section className="flex w-full flex-col items-center md:px-36 font-primary text-white">
       <div className="p-5 text-center">
-        <h2 className="text-headings pb-5 text-5xl font-bold">Our Sponsors</h2>
+        <h2 className="text-headings pb-5 text-5xl font-bold">Our Community Partners</h2>
         <p>Announcing Soon...</p>
       </div>
-
+      <div className="col-span-12 mb-16 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
       {/* <Carousel
         plugins={[plugin.current]}
         opts={{
@@ -47,9 +47,8 @@ const Sponsors = () => {
         <CarouselPrevious className="ml-8" variant="default" />
         <CarouselNext className="mr-10" variant="default" />
       </Carousel> */}
-            <div className="col-span-12 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
     </section>
   );
 };
 
-export default Sponsors;
+export default Community;

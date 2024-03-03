@@ -97,7 +97,7 @@ const ScrollNavBar = () => {
                 </li>
               ))}
 
-              <Link href="/register">
+              <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA">
                 <Button className="hidden rounded-full px-6 md:block">
                   Register
                 </Button>
@@ -117,7 +117,9 @@ const ScrollNavBar = () => {
                 {data.title}
               </Link>
             ))}
+            <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA">
             <Button>Register</Button>
+            </Link>
           </div>
         )}
       </nav>
