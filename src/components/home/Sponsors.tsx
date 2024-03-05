@@ -17,9 +17,11 @@ const Sponsors = () => {
     Autoplay({ delay: 4000, stopOnInteraction: true }),
   );
   return (
-    <section className="flex w-full flex-col items-center px-12 md:px-36 py-36 font-primary text-white">
+    <section className="flex w-full flex-col items-center px-12 py-36 font-primary text-white md:px-36">
       <div className="p-5 text-center">
-        <h2 className="text-headings pb-5 text-5xl font-bold">Our Sponsors</h2>
+        <h2 className="pb-5 text-3xl font-bold text-headings md:text-6xl">
+          OUR SPONSORS
+        </h2>
         <p>Announcing Soon...</p>
       </div>
 
@@ -47,7 +49,7 @@ const Sponsors = () => {
         <CarouselPrevious className="ml-8" variant="default" />
         <CarouselNext className="mr-10" variant="default" />
       </Carousel> */}
-            <div className="col-span-12 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
+      <div className="col-span-12 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-secondary to-primary"></div>
     </section>
   );
 };

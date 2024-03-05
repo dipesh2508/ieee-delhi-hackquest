@@ -26,7 +26,7 @@ const ToTop = () => {
 
 function UpElement() {
   return (
-    <div className="fixed bottom-8 right-8 hidden h-12 w-12 items-center align-middle text-secondary md:flex">
+    <div className="fixed bottom-8 right-8 md:h-12 md:w-12 h-6 w-6 items-center align-middle text-secondary md:flex">
       <Link href="/">
         <FaArrowCircleUp size={48} />
       </Link>

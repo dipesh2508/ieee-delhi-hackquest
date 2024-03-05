@@ -17,9 +17,11 @@ const Community = () => {
     Autoplay({ delay: 4000, stopOnInteraction: true }),
   );
   return (
-    <section className="flex w-full flex-col items-center px-12 md:px-36 font-primary text-white">
+    <section className="flex w-full flex-col items-center px-12 font-primary text-white md:px-36">
       <div className="p-5 text-center">
-        <h2 className="text-headings pb-5 text-5xl font-bold">Our Community Partners</h2>
+        <h2 className="pb-5 text-3xl font-bold text-headings md:text-6xl">
+          OUR COMMUNITY PARTNERS
+        </h2>
         <p>Announcing Soon...</p>
       </div>
       <div className="col-span-12 mb-16 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
