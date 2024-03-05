@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="mt-4">
             <h3 className="font-secondary text-2xl md:text-4xl text-white">
               Registration
-              <span className="text-primary"> Opens</span> In
+              <span className="text-primary"> Closes</span> In
             </h3>
           </div>
           <CountDown />
