@@ -45,6 +45,7 @@ const Team = () => {
                 width="300"
                 height="300"
                 alt={item.Name}
+                loading="lazy"
               />
               <div className="absolute inset-0 ml-5 flex w-[260px] flex-col justify-center rounded-xl  bg-black bg-opacity-75 px-5 text-center opacity-0 transition-opacity duration-300 hover:border-2 hover:border-headings hover:opacity-100">
                 <CardTitle>{item.Name}</CardTitle>
