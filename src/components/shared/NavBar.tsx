@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <nav className="w-full flex flex-row items-center gap-8 justify-center mt-8 align-middle h-auto">
       <div className="w-48 ml-12 hidden md:block font-primary">
-        <Image src="/SAC_logo.png" width={130} height={300} alt="logo" />
+        <img src="/SAC_logo.png" width={130} height={300} alt="logo" />
       </div>
       <div className="flex flex-col items-center justify-center rounded-2xl bg-glassmorphism p-3 text-primary md:mx-auto md:mt-0 md:w-fit md:flex-row md:gap-8 md:rounded-full md:p-5 md:px-12 ">
         <button
