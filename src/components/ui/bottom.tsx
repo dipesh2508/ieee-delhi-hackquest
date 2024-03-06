@@ -1,13 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import { sm_handles, quicklinks } from "@/constants/footer";
+import logo from "@/assets/hackquest logo.png";
 
 const Bottom = () => {
   return (
     <footer className="flex flex-wrap justify-center sm:flex w-full sm:justify-between  bg-black px-[5.5vw] py-[8.5vh] text-white gap-4 sm:gap-0">
-      <div className="flex flex-col">
-        <Image src="/logo.png" width={200} height={150} alt="logo" />
-        <div className="flex gap-5 pl-8">
+      <div className="flex flex-col w-96">
+        <div className="grid grid-cols-12 gap-2 items-center">
+        <img className=" col-span-4" src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/public/SAC_Logo.png" alt="logo" />
+        <div className="flex text-5xl pb-3 justify-center">
+        &#124;
+        </div>
+        <Image src={logo} className="col-span-7" alt="HackQuest" loading="lazy" />
+        </div>
+        <div className="flex ml-1 gap-5">
           {sm_handles.map((item, index) => (
             <Link
             key={index}
@@ -22,6 +29,9 @@ const Bottom = () => {
             />
             </Link>
           ))}
+
+            <p className="my-auto pt-4"> | © 2024 IEEE Delhi Section SAC</p>
+
         </div>
       </div>
       <div>

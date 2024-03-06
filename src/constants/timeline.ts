@@ -50,8 +50,8 @@ export const timelineData: ITimelineProps[] = [
   {
     left: true,
     title: "Final Round (Offline)",
-    date: "13th April 2024",
-    time: "13th April - 14th April 2024",
+    date: "To be revealed soon",
+    time: "To be revealed soon",
     description:
       "This will be the offline round where the shortlisted participants will present their final product to the judges. The venue will be announced soon.",
   },
