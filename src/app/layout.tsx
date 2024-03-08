@@ -22,7 +22,7 @@ const titillium = Titillium_Web({
 export const metadata: Metadata = {
   title: "HackQuest",
   description:
-    "HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges and learn new skills",
+    "HackQuest 24: A 24-hour in-person hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges and learn new skills",
   keywords:
     "hackathon, events, ieee, delhi, section, sac, hackquest, healthtech, cybersecurity, offline, online, hack, hustle, hurdle, 2024",
   robots: "index, follow",
