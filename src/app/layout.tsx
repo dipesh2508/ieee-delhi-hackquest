@@ -45,9 +45,8 @@ export default function RootLayout({
         />
         <meta
           property="og:image"
-          content="https://www.hackquest.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhackquest%20logo.d942a3f7.png&w=3840&q=75"
+          content="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/src/assets/mid_logo.png"
         />{" "}
-        {/* Replace with your actual image URL */}
         <meta property="og:url" content="https://www.hackquest.in" />
         <meta property="og:type" content="website" />
       </head>

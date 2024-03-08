@@ -30,9 +30,9 @@ const Tracks = () => {
           TRACKS
         </h2>
         <h3 className="text-center font-secondary text-xl">
-          {/* Dive into innovation across diverse tracks and challenges, navigating
-          through HackQuest{"'"}s exhilarating journey. */}
-          Announcing Soon...
+          Dive into innovation across diverse tracks and challenges, navigating
+          through HackQuest{"'"}s exhilarating journey.
+          {/* Announcing Soon... */}
         </h3>
       </div>
       <MotionDiv
@@ -47,13 +47,13 @@ const Tracks = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="flex w-full flex-wrap justify-evenly md:flex-row"
       >
-        {/* {tracks.map((item, index) => (
+        {tracks.map((item, index) => (
           <Card
             key={index}
-            className=" my-5 w-[300px] border-2 border-dark py-5 text-white backdrop-blur-xl transition-colors delay-150 hover:border-headings"
+            className=" my-5 w-[300px] border-2 border-dark py-5 text-white backdrop-blur-xl transition-colors delay-150 group hover:border-headings"
           >
             <CardContent>
-              <div className="relative bottom-12 left-20 w-fit rounded-full border border-headings bg-dark p-5 transition-colors delay-150 hover:bg-secondary">
+              <div className="relative bottom-12 left-20 w-fit rounded-full border border-headings bg-dark p-5 transition-colors delay-150 group-hover:bg-secondary">
                 <Image
                   src={item.icon}
                   width={48}
@@ -68,7 +68,7 @@ const Tracks = () => {
               </p>
             </CardContent>
           </Card>
-        ))} */}
+        ))}
       </MotionDiv>
     </section>
   );
