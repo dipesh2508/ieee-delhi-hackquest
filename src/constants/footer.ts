@@ -28,7 +28,7 @@ export const sm_handles: ISmhandles[] = [
 export const quicklinks: Iquicklinks[] = [
     {
         name: "Register",
-        link: "https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-910168"
+        link: "https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA"
     },
     {
         name: "About",
