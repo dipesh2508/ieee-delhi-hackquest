@@ -56,7 +56,7 @@ const TimelineCard: React.FC<ITimelineCardProps> = ({
           <div className="row-4 h-3 w-3 translate-x-2.5 rounded-full border border-gray-800 bg-gray-200 dark:border-slate-800 dark:bg-gray-800" />
         </div>
         <div className="space-y-1">
-          <h3 className=" text-base md:text-lg font-bold tracking-wide text-gray-300">
+          <h3 className=" text-sm text-wrap md:text-lg font-bold tracking-wide text-gray-300">
             {title}
           </h3>
           <p className="text-sm text-gray-500">{date}</p>

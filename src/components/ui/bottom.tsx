@@ -5,8 +5,8 @@ import logo from "@/assets/hackquest logo.png";
 
 const Bottom = () => {
   return (
-    <footer className="grid grid-cols-2 md:grid-cols-12 justify-center items-center  content-center gap-6 md:gap-24 bg-black px-[5.5vw] py-[8.5vh] text-white">
-      <div className="col-span-2 md:col-span-4 flex w-96 flex-col">
+    <footer className="grid grid-cols-2 md:grid-cols-12 justify-center items-center content-center md:gap-24 bg-black px-[5.5vw] py-[8.5vh] text-white">
+      <div className="col-span-2 md:col-span-4 flex flex-col mb-6 md:mb-0">
         <div className="grid grid-cols-12 items-center gap-2">
           <img
             className=" col-span-4"
@@ -49,19 +49,19 @@ const Bottom = () => {
         </div>
       </div> */}
       <div className="col-span-1 md:col-span-5 items-end">
-        <h2 className="text-lg font-medium text-center">Quick Links</h2>
+        <h2 className="text-lg font-semibold text-center">Quick Links</h2>
         {quicklinks.map((item, index) => (
           <Link
           key={index}
           href={item.link}
           >
-          <p className="text-center">{item.name}</p>
+          <p className="text-center font-thin">{item.name}</p>
           </Link>
         ))}
       </div>
       <div className="col-span-1 md:col-span-3">
         <h2 className="text-lg font-medium">Contact Us</h2>
-        <div className="flex gap-2 py-2">
+        <div className="flex flex-wrap gap-2 py-2">
           <Image
             src="/social_media/mail.svg"
             width={20}
