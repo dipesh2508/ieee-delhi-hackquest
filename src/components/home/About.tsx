@@ -63,7 +63,7 @@ const About = () => {
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
-            <Link href="https://ieeedelhisac.in/">Know More</Link>
+            <Link href="https://ieeedelhisac.in/" target="_blank">Know More</Link>
           </Button>
         </div>
       </MotionDiv>
@@ -90,7 +90,7 @@ const About = () => {
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
-            <Link href="https://www.instagram.com/hack_quest.ds/">
+            <Link href="https://www.instagram.com/hack_quest.ds/" target="_blank">
               Know More
             </Link>
           </Button>
