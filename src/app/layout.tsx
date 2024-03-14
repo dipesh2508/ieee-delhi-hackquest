@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, Titillium_Web } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/shared/NavBar";
 import Bottom from "@/components/ui/bottom";
 import Header from "@/components/home/Header";
 import ToTop from "@/components/shared/toTop";
@@ -41,7 +40,7 @@ export default function RootLayout({
         <meta property="og:title" content="HackQuest: Hurdle | Hack | Hustle" />
         <meta
           property="og:description"
-          content="HackQuest 24: A 24-hour online hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges and learn new skills"
+          content="HackQuest 24: A 24-hour in-person hackathon by IEEE Delhi Section SAC. Register now and join us to solve real-world challenges and learn new skills"
         />
         <meta
           property="og:image"
