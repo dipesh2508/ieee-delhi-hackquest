@@ -4,6 +4,7 @@ import About1 from "@/assets/About1.gif";
 import About2 from "@/assets/About2.jpg";
 import Link from "next/link";
 import { MotionDiv } from "../animation/motionDiv";
+import CountUpDiv from "../ui/CountUp";
 
 const variants = {
   hidden: { opacity: 0 },
@@ -63,7 +64,9 @@ const About = () => {
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
-            <Link href="https://ieeedelhisac.in/" target="_blank">Know More</Link>
+            <Link href="https://ieeedelhisac.in/" target="_blank">
+              Know More
+            </Link>
           </Button>
         </div>
       </MotionDiv>
@@ -90,7 +93,10 @@ const About = () => {
         </p>
         <div>
           <Button size={"lg"} className="font-secondary text-lg">
-            <Link href="https://www.instagram.com/hack_quest.ds/" target="_blank">
+            <Link
+              href="https://www.instagram.com/hack_quest.ds/"
+              target="_blank"
+            >
               Know More
             </Link>
           </Button>
@@ -115,6 +121,25 @@ const About = () => {
           className="rounded-2xl"
         />
         {/* <Image src={About2} alt="about" className="rounded-2xl" /> */}
+      </MotionDiv>
+      <MotionDiv
+        variants={variants}
+        initial="hidden"
+        transition={{
+          delay: 0.3,
+          ease: "easeInOut",
+          duration: 0.4,
+        }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.5 }}
+        className="col-span-12 mt-4 flex w-full flex-col items-center justify-center gap-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-center text-4xl font-bold text-transparent md:text-6xl"
+      >
+        Prize Pool
+        <br />
+        <span className="text-white">
+          <CountUpDiv end={99} duration={4.5} />
+          k+
+        </span>
       </MotionDiv>
 
       <div className="col-span-12 mt-16 h-1 w-full rounded-full bg-gradient-to-l from-primary to-secondary"></div>
