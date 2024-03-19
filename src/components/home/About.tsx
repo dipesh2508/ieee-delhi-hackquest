@@ -136,8 +136,8 @@ const About = () => {
       >
         Prize Pool
         <br />
-        <span className="text-white">
-          <CountUpDiv end={99} duration={4.5} />
+        <span className="flex flex-row text-white">
+          <CountUpDiv end={99} duration={4} />
           k+
         </span>
       </MotionDiv>
