@@ -18,18 +18,18 @@ export const timelineData: ITimelineProps[] = [
   {
     left: true,
     title: "Registration Closes",
-    date: "27th March 2024",
-    time: "Closes 27th March 2024",
+    date: "28th March 2024",
+    time: "Closes 28th March 2024",
     description:
-      "The registration for the hackathon will close on 27th March 2024. The registration link will be available on the website and social media handles.",
+      "The registration for the hackathon will close on 28th March 2024. The registration link will be available on the website and social media handles.",
   },
   {
     left: false,
     title: "Submission Round (via Unstop)",
-    date: "27th March 2024",
-    time: "Opens 6th March 2024 and closes on 27th March 2024",
+    date: "28th March 2024",
+    time: "Opens 6th March 2024 and closes on 28th March 2024",
     description:
-      "The PPT for the problem statement is to be submitted on Unstop. The submission will be open from 6th March 2024 to 27th March 2024.",
+      "The PPT for the problem statement is to be submitted on Unstop. The submission will be open from 6th March 2024 to 28th March 2024.",
   },
   {
     left: true,
