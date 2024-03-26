@@ -65,9 +65,11 @@ const Hero = () => {
           <CountDown />
         </div>
 
-        <Button variant="neon" size="xl" className="md:mt-4 py-3 md:py-8">
+        <Button variant="neon" size="xl" className="md:mt-4 py-3 md:py-12">
           <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA">
-            Register Now
+            Register Now <br/><span className="text-lg p-2">
+            For just Rs. 29/
+            </span>
           </Link>
         </Button>
       </MotionDiv>

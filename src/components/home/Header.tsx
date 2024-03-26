@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import ScrollNavBar from "../shared/scrollNavBar";
 import NavBar from "../shared/NavBar";
 
-
 const Header = () => {
     const [isVisible, setIsVisible] = useState(false);
   

@@ -23,7 +23,7 @@ export const faqs: Ifaqs[] = [
     {
         qnumber: "6",
         question: "Are there any discounts for early registration?",
-        answer: "Yes, there are discounts for early registration use code IEEEMEMBERHQ50 to avail the discount."
+        answer: "Yes, there are discounts for early registration use code IEEEHQ71 to avail the discount and register for just Rs. 29/-"
     },
     {
         qnumber: "4",

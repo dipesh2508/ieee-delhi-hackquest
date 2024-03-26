@@ -17,8 +17,28 @@ const About = () => {
       id="about"
       className="mt-12 grid-cols-1 content-center items-center gap-8 bg-dark bg-opacity-90 px-6 py-12 md:mt-0 md:grid md:grid-cols-12 md:gap-16 md:px-36"
     >
+        <MotionDiv
+        variants={variants}
+        initial="hidden"
+        transition={{
+          delay: 0.3,
+          ease: "easeInOut",
+          duration: 0.4,
+        }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.5 }}
+        className="col-span-12 mt-4 flex w-full flex-col items-center justify-center gap-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-center text-4xl font-bold text-transparent md:text-6xl"
+        id="prize"
+      >
+        Prize Pool
+        <br />
+        <span className="flex flex-row text-white">
+          <CountUpDiv end={99} duration={4} />
+          k+
+        </span>
+      </MotionDiv>
       <div className="col-span-12 mb-16 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
-
+      
       <MotionDiv
         variants={variants}
         initial="hidden"
@@ -122,25 +142,7 @@ const About = () => {
         />
         {/* <Image src={About2} alt="about" className="rounded-2xl" /> */}
       </MotionDiv>
-      <MotionDiv
-        variants={variants}
-        initial="hidden"
-        transition={{
-          delay: 0.3,
-          ease: "easeInOut",
-          duration: 0.4,
-        }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount: 0.5 }}
-        className="col-span-12 mt-4 flex w-full flex-col items-center justify-center gap-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-center text-4xl font-bold text-transparent md:text-6xl"
-      >
-        Prize Pool
-        <br />
-        <span className="flex flex-row text-white">
-          <CountUpDiv end={99} duration={4} />
-          k+
-        </span>
-      </MotionDiv>
+
 
       <div className="col-span-12 mt-16 h-1 w-full rounded-full bg-gradient-to-l from-primary to-secondary"></div>
     </section>
