@@ -27,7 +27,7 @@ const About = () => {
         }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
-        className="col-span-12 mt-4 flex w-full flex-col items-center justify-center gap-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-center text-4xl font-bold text-transparent md:text-6xl"
+        className="col-span-12 md:mt-4 flex w-full flex-col items-center justify-center gap-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-center text-4xl font-bold text-transparent -mt-20 mb-12 md:mb-0 md:text-6xl"
         id="prize"
       >
         Prize Pool
@@ -51,12 +51,12 @@ const About = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="col-span-12 m-auto grid w-auto content-center gap-4 rounded-2xl bg-white align-middle md:col-span-5 md:h-80"
       >
-        {/* <Image src={About1} alt="about" className="rounded-2xl  " /> */}
-        <img
+        <Image src={About1} alt="about" className="rounded-2xl  " />
+        {/* <Image
           src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/src/assets/About1.gif"
           alt="IEEE Delhi SSN"
           className="rounded-2xl"
-        />
+        /> */}
       </MotionDiv>
 
       <MotionDiv
@@ -135,12 +135,12 @@ const About = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="col-span-12 m-auto grid w-auto content-center gap-4 rounded-2xl bg-white align-middle md:col-span-5"
       >
-        <img
+        {/* <Image
           src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/src/assets/About2.jpg"
           alt="Hackquest"
           className="rounded-2xl"
-        />
-        {/* <Image src={About2} alt="about" className="rounded-2xl" /> */}
+        /> */}
+        <Image src={About2} alt="about" className="rounded-2xl" />
       </MotionDiv>
 
 

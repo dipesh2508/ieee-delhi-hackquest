@@ -64,14 +64,21 @@ const Hero = () => {
           </div>
           <CountDown />
         </div>
+        <div className="flex flex-col md:flex-row align-middle items-center justify-center gap-8 text-white text-center">
+
 
         <Button variant="neon" size="xl" className="md:mt-4 py-3 md:py-12">
           <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA">
-            Register Now <br/><span className="text-lg p-2">
-            For just Rs. 29/
-            </span>
+            Register Now 
+            <br />
+            For Just Rs. 29/-
+            
           </Link>
         </Button>
+        <p className="text-xl px-4">
+        Use coupon code <br /> <span className="text-secondary font-bold text-4xl">IEEEHQ71</span> 
+        </p>
+        </div>
       </MotionDiv>
       <div className="absolute -right-24 -top-8 h-96 w-96 overflow-hidden rounded-full  bg-secondary opacity-40 blur-[150px]"></div>
     </section>
