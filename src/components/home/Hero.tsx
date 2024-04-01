@@ -58,13 +58,13 @@ const Hero = () => {
         <div className="flex flex-col gap-4 md:gap-6 items-center">
           <div className="mt-4">
             <h3 className="font-secondary text-2xl md:text-4xl text-white">
-              Registration
-              <span className="text-primary"> Closes</span> In
+              Registrations
+              <span className="text-primary"> Closed</span>
             </h3>
           </div>
           <CountDown />
         </div>
-        <div className="flex flex-col md:flex-row align-middle items-center justify-center gap-8 text-white text-center">
+        {/* <div className="flex flex-col md:flex-row align-middle items-center justify-center gap-8 text-white text-center">
 
 
         <Button variant="neon" size="xl" className="md:mt-4 py-3 md:py-12">
@@ -78,7 +78,7 @@ const Hero = () => {
         <p className="text-xl px-4">
         Use coupon code <br /> <span className="text-secondary font-bold text-4xl">IEEEHQ71</span> 
         </p>
-        </div>
+        </div> */}
       </MotionDiv>
       <div className="absolute -right-24 -top-8 h-96 w-96 overflow-hidden rounded-full  bg-secondary opacity-40 blur-[150px]"></div>
     </section>
