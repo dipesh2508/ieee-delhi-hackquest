@@ -58,8 +58,8 @@ const Hero = () => {
         <div className="flex flex-col gap-4 md:gap-6 items-center">
           <div className="mt-4">
             <h3 className="font-secondary text-2xl md:text-4xl text-white">
-              Registrations
-              <span className="text-primary"> Closed</span>
+              Starts
+              <span className="text-primary"> In</span>
             </h3>
           </div>
           <CountDown />
