@@ -11,6 +11,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent, CardTitle } from "@/components/ui/Card";
+import Image from "next/image";
 
 const Community = () => {
   const plugin = React.useRef(
@@ -22,25 +23,27 @@ const Community = () => {
         <h2 className="pb-5 text-3xl font-bold text-headings md:text-6xl">
           OUR COMMUNITY PARTNERS
         </h2>
-        <p>Announcing Soon...</p>
+        {/* <p>Announcing Soon...</p> */}
       </div>
-      <div className="col-span-12 mb-16 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
-      {/* <Carousel
+
+      <Carousel
         plugins={[plugin.current]}
         opts={{
           align: "center",
         }}
-        className="w-full"
+        className="w-full mt-8"
       >
         <CarouselContent>
-          {sponsors.map((item, index) => (
-            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-              <div className="p-4 flex justify-center">
-                <Card className=" border-0 hover:border-headings w-[350px]  hover:border-2">
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                    
-                    <h2 className="text-white">{item.title}</h2>
+          {community.map((item, index) => (
+            <CarouselItem key={index} className="md:basis-1/5 lg:basis-1/5">
+              <div className="flex justify-center items-center mx-auto">
+                <Card className=" border-0 hover:border-headings h-72 hover:border-2 overflow-hidden mx-auto">
+                  <CardContent className="flex flex-col aspect-square mx-auto items-center h-56 justify-center p-4 py-8">
+                    <Image src={item.image} alt={item.title} className="mx-auto" />
                   </CardContent>
+                  <CardTitle className="text-center text-md font-bold px-4 pb-3 h-fit">
+                    {item.title}
+                  </CardTitle>
                 </Card>
               </div>
             </CarouselItem>
@@ -48,7 +51,9 @@ const Community = () => {
         </CarouselContent>
         <CarouselPrevious className="ml-8" variant="default" />
         <CarouselNext className="mr-10" variant="default" />
-      </Carousel> */}
+      </Carousel>
+
+      <div className="col-span-12 mb-16 mt-36 h-1 w-full mx-4 rounded-full bg-gradient-to-r from-primary to-secondary"></div>
     </section>
   );
 };
