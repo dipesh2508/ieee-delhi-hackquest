@@ -13,22 +13,23 @@ export const faqs: Ifaqs[] = [
     {
         qnumber: "2",
         question: "How can I register for HackQuest 2024?",
-        answer: "You can register for Hackquest on Unstop. Early registration is recommended to secure your spot in the event."
+        // answer: "You can register for Hackquest on Unstop. Early registration is recommended to secure your spot in the event."
+        answer: "The Registration is now closed. Stay tuned for the next edition of HackQuest."
     },
-    {
-        qnumber: "3",
-        question: "Is there a registration fee for participating?",
-        answer: "There is a nominal registration fee to cover operational expenses. Details regarding registrations are provided on Unstop."
-    },
-    {
-        qnumber: "6",
-        question: "Are there any discounts for early registration?",
-        answer: "Yes, there are discounts for early registration use code IEEEHQ71 to avail the discount and register for just Rs. 29/-"
-    },
+    // {
+    //     qnumber: "3",
+    //     question: "Is there a registration fee for participating?",
+    //     answer: "There is a nominal registration fee to cover operational expenses. Details regarding registrations are provided on Unstop."
+    // },
+    // {
+    //     qnumber: "6",
+    //     question: "Are there any discounts for early registration?",
+    //     answer: "Yes, there are discounts for early registration use code IEEEHQ71 to avail the discount and register for just Rs. 29/-"
+    // },
     {
         qnumber: "4",
         question: "Where will HackQuest be hosted?",
-        answer: "The host student branch will be announced soon which will be in the IEEE Delhi Section itself. Stay tuned for updates on the venue."
+        answer: "The HackQuest hackathon will take place in a virtual mode, allowing participants to join from anywhere in the world. The event will be hosted on a secure platform, ensuring a seamless experience for all participants."
     },
     {
         qnumber: "5",
