@@ -3,7 +3,7 @@ import Countdown from "react-countdown";
 
 const CountDown = () => {
   const today = new Date();
-  const regAt = new Date("2024-04-13T08:29:59.999Z");
+  const regAt = new Date("2024-04-13T05:29:59.999Z");
   const regAtDiff = regAt.getTime() - today.getTime();
   return (
     <Countdown
