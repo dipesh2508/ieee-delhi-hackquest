@@ -10,7 +10,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent, CardTitle } from "@/components/ui/Card";
+import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/Card";
+import Image from 'next/image'
+import IEEED from '@/assets/sponsors/SAC_Logo.png'
+
 
 const Sponsors = () => {
   const plugin = React.useRef(
@@ -22,7 +25,6 @@ const Sponsors = () => {
         <h2 className="pb-5 text-3xl font-bold text-headings md:text-6xl">
           OUR SPONSORS
         </h2>
-        <p>Announcing Soon...</p>
       </div>
 
       {/* <Carousel
@@ -49,6 +51,32 @@ const Sponsors = () => {
         <CarouselPrevious className="ml-8" variant="default" />
         <CarouselNext className="mr-10" variant="default" />
       </Carousel> */}
+
+      <Card>
+        <CardContent className="flex justify-center items-center p-6 flex-col w-[360px] py-20 h-[400px] gap-0">
+          <Image src={IEEED} alt="ieee delhi sac" />
+          <CardContent className="text-white mt-6 font-extralight text-xl font-primary text-center">IEEE Delhi Section Students Activities Committee</CardContent>
+          <CardDescription className="text-lg">Title Sponsor</CardDescription>
+        </CardContent>
+      </Card>
+      {/* <div 
+      className="grid grid-cols-3 gap-8 w-full"
+      >
+        {sponsors.map((items, index) =>{
+          return (
+            <div key={index} className="flex justify-center items-center">
+              <Card>
+        <CardContent className="flex justify-center items-center p-6 flex-col w-[360px] py-20 h-[600px] gap-0">
+          <Image src={items.image} alt="ieee delhi sac" />
+          <CardContent className="text-white mt-6 font-extralight text-xl font-primary text-center">{items.name}</CardContent>
+          <CardDescription className="text-lg">{items.title}</CardDescription>
+        </CardContent>
+      </Card>
+            </div>
+          )
+        })}
+      </div> */}
+
       <div className="col-span-12 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-secondary to-primary"></div>
     </section>
   );

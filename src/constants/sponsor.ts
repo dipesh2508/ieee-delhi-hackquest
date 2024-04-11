@@ -1,27 +1,30 @@
+import Reskill from '@/assets/sponsors/reskilll.png'
+import LWT from '@/assets/sponsors/LWT.png'
+import CT from '@/assets/sponsors/ct.png'
+import Unstop from '@/assets/sponsors/unstop.png'
+import { StaticImageData } from 'next/image';
+
 export interface Isponsor {
-    image: string;
+    image: StaticImageData;
+    name: string;
     title: string;
 }
 
 export const sponsors:Isponsor[] = [
+
     {
-        image: "/sponsors/1.png",
-        title: "sponsors1"
+        image: Reskill,
+        name: "Reskill",
+        title: "Associate Partner"
     },
     {
-        image: "/sponsors/2.png",
-        title: "sponsors2"
+        image: Unstop,
+        name: "Unstop",
+        title: "Platform Partner"
     },
     {
-        image: "/sponsors/3.png",
-        title: "sponsors3"
-    },
-    {
-        image: "/sponsors/4.png",
-        title: "sponsors4"
-    },
-    {
-        image: "/sponsors/5.png",
-        title: "sponsors5"
-    },
+        image: LWT,
+        name: "Learn While Travelling",
+        title: "Knowledge Partner"
+    }
 ]
