@@ -10,10 +10,14 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/Card";
-import Image from 'next/image'
-import IEEED from '@/assets/sponsors/SAC_Logo.png'
-
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardTitle,
+} from "@/components/ui/Card";
+import Image from "next/image";
+import IEEED from "@/assets/sponsors/SAC_Logo.png";
 
 const Sponsors = () => {
   const plugin = React.useRef(
@@ -52,30 +56,35 @@ const Sponsors = () => {
         <CarouselNext className="mr-10" variant="default" />
       </Carousel> */}
 
-      <Card>
-        <CardContent className="flex justify-center items-center p-6 flex-col w-[360px] py-20 h-[400px] gap-0">
+      <Card className="opacity-90 mt-8">
+        <CardContent className="flex h-[400px] w-[360px] flex-col items-center justify-center gap-0 p-6 py-20">
           <Image src={IEEED} alt="ieee delhi sac" />
-          <CardContent className="text-white mt-6 font-extralight text-xl font-primary text-center">IEEE Delhi Section Students Activities Committee</CardContent>
+          <CardContent className="mt-6 text-center font-primary text-xl font-extralight text-white">
+            IEEE Delhi Section Students Activities Committee
+          </CardContent>
           <CardDescription className="text-lg">Title Sponsor</CardDescription>
         </CardContent>
       </Card>
-      {/* <div 
-      className="grid grid-cols-3 gap-8 w-full"
-      >
-        {sponsors.map((items, index) =>{
+      <Card className="grid w-full grid-cols-4 gap-12 px-16 mt-12 opacity-90">
+        {sponsors.map((items, index) => {
           return (
-            <div key={index} className="flex justify-center items-center">
-              <Card>
-        <CardContent className="flex justify-center items-center p-6 flex-col w-[360px] py-20 h-[600px] gap-0">
-          <Image src={items.image} alt="ieee delhi sac" />
-          <CardContent className="text-white mt-6 font-extralight text-xl font-primary text-center">{items.name}</CardContent>
-          <CardDescription className="text-lg">{items.title}</CardDescription>
-        </CardContent>
-      </Card>
+            <div key={index} className="flex items-center justify-center">
+              <CardContent className="flex flex-col items-center justify-center gap-0 p-6 py-20">
+                <div className="h-48 flex items-center justify-center">
+
+                <Image src={items.image} alt="ieee delhi sac" />
+                </div>
+                <CardContent className="mt-6 text-center font-primary text-xl font-extralight text-white">
+                  {items.name}
+                </CardContent>
+                <CardDescription className="text-lg">
+                  {items.title}
+                </CardDescription>
+              </CardContent>
             </div>
-          )
+          );
         })}
-      </div> */}
+      </Card>
 
       <div className="col-span-12 mt-36 h-1 w-full rounded-full bg-gradient-to-r from-secondary to-primary"></div>
     </section>

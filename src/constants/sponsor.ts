@@ -1,30 +1,35 @@
-import Reskill from '@/assets/sponsors/reskilll.png'
-import LWT from '@/assets/sponsors/LWT.png'
-import CT from '@/assets/sponsors/ct.png'
-import Unstop from '@/assets/sponsors/unstop.png'
-import { StaticImageData } from 'next/image';
+import Reskill from "@/assets/sponsors/reskilll.png";
+import LWT from "@/assets/sponsors/LWT.png";
+import CT from "@/assets/sponsors/ct.png";
+import Unstop from "@/assets/sponsors/unstop.png";
+import { StaticImageData } from "next/image";
 
 export interface Isponsor {
-    image: StaticImageData;
-    name: string;
-    title: string;
+  image: StaticImageData;
+  name: string;
+  title: string;
 }
 
-export const sponsors:Isponsor[] = [
+export const sponsors: Isponsor[] = [
+  {
+    image: CT,
+    name: "IEEE Collabratec",
+    title: "Associate Sponsor",
+  },
 
-    {
-        image: Reskill,
-        name: "Reskill",
-        title: "Associate Partner"
-    },
-    {
-        image: Unstop,
-        name: "Unstop",
-        title: "Platform Partner"
-    },
-    {
-        image: LWT,
-        name: "Learn While Travelling",
-        title: "Knowledge Partner"
-    }
-]
+  {
+    image: LWT,
+    name: "Learn While Travelling",
+    title: "Knowledge Partner",
+  },
+  {
+    image: Unstop,
+    name: "Unstop",
+    title: "Platform Partner",
+  },
+  {
+    image: Reskill,
+    name: "Reskill",
+    title: "Associate Sponsor",
+  },
+];
