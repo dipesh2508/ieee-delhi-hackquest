@@ -65,11 +65,11 @@ const Sponsors = () => {
           <CardDescription className="text-lg">Title Sponsor</CardDescription>
         </CardContent>
       </Card>
-      <Card className="grid w-full grid-cols-4 gap-12 px-16 mt-12 opacity-90">
+      <Card className="grid w-[360px] md:w-full md:grid-cols-4 md:gap-12 px-16 mt-12 opacity-90">
         {sponsors.map((items, index) => {
           return (
             <div key={index} className="flex items-center justify-center">
-              <CardContent className="flex flex-col items-center justify-center gap-0 p-6 py-20">
+              <CardContent className="flex flex-col items-center justify-center gap-0 p-6 py-8 md:py-20">
                 <div className="h-48 flex items-center justify-center">
 
                 <Image src={items.image} alt="ieee delhi sac" />
