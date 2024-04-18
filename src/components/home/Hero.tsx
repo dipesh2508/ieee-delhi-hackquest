@@ -55,7 +55,7 @@ const Hero = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="mt-8 flex flex-col md:flex-row items-center gap-8 md:gap-24 align-middle"
       >
-        <div className="flex flex-col gap-4 md:gap-6 items-center">
+        {/* <div className="flex flex-col gap-4 md:gap-6 items-center">
           <div className="mt-4">
             <h3 className="font-secondary text-2xl md:text-4xl text-white">
               Starts
@@ -63,23 +63,36 @@ const Hero = () => {
             </h3>
           </div>
           <CountDown />
-        </div>
-        {/* <div className="flex flex-col md:flex-row align-middle items-center justify-center gap-8 text-white text-center">
+        </div> */}
+        <div className="flex flex-col md:flex-row align-middle items-center justify-center gap-8 text-white text-center">
 
 
-        <Button variant="neon" size="xl" className="md:mt-4 py-3 md:py-12">
+        <Button variant="neon" size="xl" className="md:mt-4 py-6 md:py-12">
           <Link href="https://unstop.com/p/hackquest-hackathon-ieee-delhi-section-student-activities-committee-906129?lb=juhgQeA">
-            Register Now 
+            The Event has
             <br />
-            For Just Rs. 29/-
-            
+            Officially Concluded
           </Link>
         </Button>
-        <p className="text-xl px-4">
+        
+        {/* <p className="text-xl px-4">
         Use coupon code <br /> <span className="text-secondary font-bold text-4xl">IEEEHQ71</span> 
-        </p>
-        </div> */}
+        </p> */}
+        </div>
       </MotionDiv>
+
+      <MotionDiv
+              variants={variants}
+              initial="hidden"
+              transition={{
+                delay: 1.3,
+                ease: "easeInOut",
+                duration: 0.4,
+              }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.5 }}>
+          <span className="text-secondary font-base text-xl">Stay Tuned for the Results and Further Editions.</span>
+        </MotionDiv>
       <div className="absolute -right-24 -top-8 h-96 w-96 overflow-hidden rounded-full  bg-secondary opacity-40 blur-[150px]"></div>
     </section>
   );
