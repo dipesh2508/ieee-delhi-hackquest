@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+<img alt="HackQuest Logo" src="https://raw.githubusercontent.com/dipesh2508/ieee-delhi-hackquest/main/src/assets/mid_logo.png" width="15%" />
+<br/>
+</div>
 
-First, run the development server:
+# IEEE HackQuest 2024
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to the official GitHub repository for HackQuest 2024, developed by the IEEE Delhi Section Students Activities Committee. HackQuest is an exciting event that challenges participants to solve various hacking-related challenges. This repository contains the codebase for the HackQuest 2024 website, which was developed using Next.js 14, Typescript, Tailwind CSS, ShadCN/ui, and Framer Motion.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can view the HackQuest 2024 website at [www.hackquest.in](http://www.hackquest.in).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Developers
 
-## Learn More
+### From Team IEEE Delhi Section Student Network 2023-24
+- **Dipesh Ranjan**, Chandigarh University
+- **Abhishek Jha**, Maharaja Agrasen Institute of Technology (MAIT)
 
-To learn more about Next.js, take a look at the following resources:
+## Ownership
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All content and details related to HackQuest 2024 are owned by the IEEE Delhi Section Students Activities Committee (2024).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js 14
+- Typescript
+- Tailwind CSS
+- ShadCN/ui
+- Framer Motion
